@@ -7534,7 +7534,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3303,
             "candidate": 23,
             "affected_candidate": 24,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.043
         }
     },
     {
@@ -7554,7 +7554,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3311,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -119.949
+            "global_multiplier": -0.8149
         }
     },
     {
@@ -7574,7 +7574,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3312,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -1999.1
+            "global_multiplier": -0.71
         }
     },
     {
@@ -7885,6 +7885,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "global_multiplier": -0.098
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9138,
+        "fields": {
+            "answer": 3313,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": -0.138
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9139,
+        "fields": {
+            "answer": 3313,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": 0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9140,
+        "fields": {
+            "answer": 3303,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": -0.024
         }
     }
 ]   
@@ -11335,7 +11365,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 106,
             "candidate": 23,
             "affected_candidate": 23,
-            "state_multiplier": 0.06
+            "state_multiplier": 0.09
         }
     },
     {
@@ -13676,6 +13706,10 @@ function switcheroo4() {
     campaignTrail_temp.running_mate_last_name = 'Ashbrook';
     campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/896483055575896074/1094351418623803432/image.png';
 }
+function switcheroo5() {
+    e.candidate_json[2].fields.first_name = "Other"
+    e.candidate_json[2].fields.last_name = "Candidates" 
+}
  // god bless aero.
  // the way i handle adding the new Q's is pretty stupid and scuffed - only doing this bc i'm too impatient to figure out another way.
  // this has no actual effect on the way ur supposed to play - this will annoy people who want to skip questions (by making it impossible basically, if u want to do tower)
@@ -13705,6 +13739,9 @@ function switcheroo4() {
     }
     if(ans == 3311 || ans == 3312 || ans == 3313 ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(3320);
+    }
+     if(ans == 3311 || ans == 3312 ){
+         switcheroo5();
     }
     if(ans == 3314 || ans == 3315 || ans == 3316 ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(3330);
