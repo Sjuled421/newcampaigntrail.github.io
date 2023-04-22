@@ -474,6 +474,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1685,
         "fields": {
             "question": 260,
+            "liberal": true,
             "description": "So, what you see in modern politics is a growing domination of the Democratic Party by Big Labor, and the domination of the Republican Party by Big Business. We\u2019ve got to reverse this worrying trend, if we want to ensure our children and grandchildren have a functional democracy."
         }
     },
@@ -578,6 +579,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1775,
         "fields": {
             "question": 285,
+            "liberal": true,
             "description": "We need to put forward an image of unwavering hope and faith in our future - we are on the precipice of greatness, and it\u2019s like a tunnel. You have to go through the dark to get to the light."
         }
     },
@@ -683,6 +685,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1794,
         "fields": {
             "question": 291,
+            "liberal": true,
             "description": "I think they have some points that are very true, y\u2019know, but they can\u2019t be going about making it in this violent and riotous manner."
         }
     },
@@ -6851,7 +6854,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1720,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.853
+            "global_multiplier": -0.573
         }
     },
     {
@@ -7411,7 +7414,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1670,
             "candidate": 23,
             "affected_candidate": 24,
-            "global_multiplier": -0.333
+            "global_multiplier": -0.283
         }
     },
     {
@@ -7531,7 +7534,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3350,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.249
+            "global_multiplier": -0.299
         }
     },
     {
@@ -7561,7 +7564,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3352,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.241
+            "global_multiplier": -0.311
         }
     },
     {
@@ -7571,7 +7574,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3353,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.261
+            "global_multiplier": -0.321
         }
     },
     {
@@ -7611,7 +7614,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3354,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.276
+            "global_multiplier": -0.296
         }
     },
     {
@@ -11982,7 +11985,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 128,
             "candidate": 23,
             "affected_candidate": 24,
-            "state_multiplier": -0.21
+            "state_multiplier": -0.11
         }
     },
     {
@@ -13556,6 +13559,204 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9380,
+        "fields": {
+            "answer": 3243,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9381,
+        "fields": {
+            "answer": 3243,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9382,
+        "fields": {
+            "answer": 3243,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9383,
+        "fields": {
+            "answer": 3243,
+            "state": 100,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9384,
+        "fields": {
+            "answer": 3243,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9385,
+        "fields": {
+            "answer": 3243,
+            "state": 103,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9386,
+        "fields": {
+            "answer": 3243,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9387,
+        "fields": {
+            "answer": 3244,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9388,
+        "fields": {
+            "answer": 3244,
+            "state": 118,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9389,
+        "fields": {
+            "answer": 3244,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9390,
+        "fields": {
+            "answer": 3244,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9391,
+        "fields": {
+            "answer": 3244,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9392,
+        "fields": {
+            "answer": 3246,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9393,
+        "fields": {
+            "answer": 3246,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9394,
+        "fields": {
+            "answer": 3246,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9395,
+        "fields": {
+            "answer": 3246,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9396,
+        "fields": {
+            "answer": 3246,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9397,
+        "fields": {
+            "answer": 3246,
+            "state": 126,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
         }
     }
 ]
