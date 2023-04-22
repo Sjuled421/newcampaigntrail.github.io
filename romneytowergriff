@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 338,
         "fields": {
             "priority": 1,
-            "description": "It\u2019s not even been a week, and an issue you\u2019ve long prayed was buried has turned up again: The Goldwater-Romney letters have been printed on the front page of the New York Times, bringing to focus your conduct during the 1964 Campaign.",
+            "description": "Your selection of Brooke has sent conservatives into an <i>uproar</i> - there's open talk of abandoning your campaign and running third party, and Governor Reagan seems to be encouraging it. Hall's nerves are fried. This could be a calamity.",
             "likelihood": 1
         }
     },
@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 256,
         "fields": {
             "priority": 1,
-            "description": "The Democratic National Convention has gone up in smokes - after far too many overtures to peace forces by Humphrey, President Johnson has helicoptered into the convention and seized the moment in a exercise of raw power. The chaos that filled the floor is unspeakable. The polls have swung in your favor.",
+            "description": "The Democratic National Convention has gone up in smokes - after far too many overtures to peace forces by Humphrey, President Johnson has helicoptered into the convention and seized the nomination in a exercise of raw power. The chaos that has filled the floor is unspeakable.",
             "likelihood": 1
         }
     },
@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 326,
         "fields": {
             "priority": 1,
-            "description": "Wi ",
+            "description": "A shocked America wakes to find President Johnson heading a Democratic ticket once more, and the events in Chicago have become a widely panned disaster. Hall says this is an advantage, one that you have to exploit.",
             "likelihood": 1
         }
     },
@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255,
         "fields": {
             "priority": 1,
-            "description": "While civil rights isn\u2019t exactly the top-priority for voters as it was in \u201864, you can\u2019t skirt by it like you have generally with \u2018Nam. What\u2019ll the overall thrust of your civil rights policy be, if elected?",
+            "description": "The events of the Chicago convention has left peace Democrats in despair - more than a few of the same folks who helped lead the McCarthy crusade have begun lining up behind you, out of sheer opposition to Johnson, or because of your apparent disapproval of the Vietnam War. Will you do anything to court these folks? ",
             "likelihood": 1
         }
     },
@@ -58,17 +58,8 @@ campaignTrail_temp.questions_json = [
         "pk": 254,
         "fields": {
             "priority": 1,
-            "description": "Ouch - Kirk has just accused Humphrey of being \u2018Soft on Communism\u2019, to much ridicule among the press. What\u2019ll be the clean-up plan?",
+            "description": "The Chicago fiasco could only suffocate the news cylce for so long - the Goldwater-Romney letters have been reprinted on the frontpage of the New York Times, and Brooke's actions during the '64 campaign are also under scrutiny. Furthermore, rumors are swirling around Washington about his supposed infidelity - likely the works of Johnson. What will you do to ward off the damage?",
             "likelihood": 1.0
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 257,
-        "fields": {
-            "priority": 2,
-            "description": "Over the past few weeks, the Humphrey Campaign has been finally pulling into high gear - Where they may have once lacked a proper machine in certain states, the foundations for them are now being laid. It seems your indomitable lead won\u2019t be there forever, any plans to capitalize on it while you\u2019ve got it?",
-            "likelihood": 1
         }
     },
     {
@@ -76,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 285,
         "fields": {
             "priority": 2,
-            "description": "Over the past year, riots have swept the nation, the crime rate is soaring, and most Americans feel what they can only describe as a sense of \u2018Dread\u2019. Any plan to take advantage of this sentiment?",
+            "description": "Over the past year, riots have swept the nation, the crime rate is soaring, and most Americans feel what they can only describe as a sense of 'dread', which has only been amplified by the Chicago fiasco. Any plan to take advantage of this sentiment?",
             "likelihood": 1
         }
     },
@@ -85,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 290,
         "fields": {
             "priority": 2,
-            "description": "Rumors of a debate between you and Humphrey are floating around the D.C. Beltway - Do you have any plans to commit to one?",
+            "description": "Rumors of a debate between you and Johnson are floating around the D.C. Beltway - do you have any plans to commit to one?",
             "likelihood": 1
         }
     },
@@ -103,7 +94,7 @@ campaignTrail_temp.questions_json = [
         "pk": 260,
         "fields": {
             "priority": 2,
-            "description": "Your personal views on the Union - Business dynamic have become the talk of the town as of late, and Leonard Hall senses an opportunity - How will you frame your position?",
+            "description": "Your personal views on the Union - Business dynamic have become the talk of the town as of late, and Leonard Hall senses an opportunity - how will you frame your position?",
             "likelihood": 1
         }
     },
@@ -112,7 +103,7 @@ campaignTrail_temp.questions_json = [
         "pk": 329,
         "fields": {
             "priority": 2,
-            "description": "So far, you\u2019ve managed to maintain a rather strong fundraising campaign, only helped by the lack of any such effective operation from the Humphrey camp. Issue is, donations have begun slowing down as of late - Any ideas to remedy that?",
+            "description": "So far, you\u2019ve managed to maintain a rather strong fundraising campaign, only helped by the lack of any such effective operation from the Johnson camp. Issue is, donations have begun slowing down as of late - any ideas to remedy that?",
             "likelihood": 1
         }
     },
@@ -122,15 +113,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "Rumor on the Beltway is that you\u2019re contemplating offering a spot on your cabinet to Nixon, Reagan, or even the both of them. This true, George?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 280,
-        "fields": {
-            "priority": 2,
-            "description": "The campaigns taken yet another turn - Humphrey has come out in favor of a bombing halt, and the expected \u201cThunder Bolt\u201d from Johnson is absent - What\u2019re your plans on how to counter Humphrey\u2019s recent rise in the polls?",
             "likelihood": 1
         }
     },
@@ -157,7 +139,7 @@ campaignTrail_temp.questions_json = [
         "pk": 277,
         "fields": {
             "priority": 2,
-            "description": "In the aftermath of your recent gaffe, and the Humphrey Campaign finally getting back into high gear, the election has turned frighteningly competitive. Hall is fearing for another repeat of 1960, and has called for an emergency strategy meeting.",
+            "description": "The Johnson campaign could only be in disarray for so long - finally, traditional Democratic machines have fully mobilized in support of the President, and his position has begun to rapidly improve. Hall isn't that worried, though thinks something should be done. To be safe, of course.",
             "likelihood": 1
         }
     },
@@ -181,19 +163,19 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 2910,
+        "fields": {
+            "priority": 2,
+            "description": "Governor Wallace's support has been steadily declining over the last few weeks, as his pivot to pick up dissatisfied conservatives has turned off some of his Democratic backers. What will you do take advantage of this new electoral shift?",
+            "likelihood": 1
+        }
+    },    
+    {
+        "model": "campaign_trail.question",
         "pk": 281,
         "fields": {
             "priority": 2,
-            "description": "In recent weeks, Humphrey surrogates have come to attack you for Mitt\u2019s deferment of duty on religious grounds - Any response?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 269,
-        "fields": {
-            "priority": 2,
-            "description": "Wallace\u2019s support seems to be collapsing, as voters realize his inability to win and revert to their usual voting habits - Seemingly to the benefit of Humphrey. Any ideas on how to counteract this trend?",
+            "description": "In recent weeks, Johnson surrogates have come to attack you for Mitt\u2019s deferment of duty on religious grounds - Any response?",
             "likelihood": 1
         }
     },
@@ -202,7 +184,25 @@ campaignTrail_temp.questions_json = [
         "pk": 270,
         "fields": {
             "priority": 2,
-            "description": "President Johnson has just announced a bombing halt to bring the North Vietnamese to the table, and they\u2019ved accepted, along with the South Vietnamese - It\u2019s merely a few days before the election, and the time to respond is slim. What will you hit on as the campaign comes to a close?",
+            "description": "An aide rushes to you, relaying ominous news. George Wallace has just dropped out of the race, citing 'difficulties' in financing. That doesn't make any sense - it's too late to worry about that, though. President Johnson is the clear beneficiary of the move, so what now?",
+            "likelihood": 1
+        }
+    },
+     {
+        "model": "campaign_trail.question",
+        "pk": 2700,
+        "fields": {
+            "priority": 2,
+            "description": "Scandal fills the airwaves - Edward Brooke, your vice-presidential nominee and friend, has been accused of infidelity to his wife. The evidence is seemingly flimsy, but that hasn't stopped every major newspaper from picking it up. This could throw your victory in jeapordy, George. Tread carefully.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 2701,
+        "fields": {
+            "priority": 2,
+            "description": "President Johnson has gone too far - he has finally enacted a bombing halt in what can only be a vain attempt to secure his re-election, and even cajoled the South Vietnamese to agree to peace negotiations. The polls have swung in his direction.",
             "likelihood": 1
         }
     },
@@ -211,7 +211,7 @@ campaignTrail_temp.questions_json = [
         "pk": 325,
         "fields": {
             "priority": -1,
-            "description": "It\u2019s the eve of the election, and Leonard Hall has put together a handful of strategies to push you over the edge - What\u2019ll it be, Mr. President-Elect?",
+            "description": "It\u2019s the eve of the election, and Leonard Hall has put together a handful of strategies to push you over the edge - what\u2019ll it be, Mr. President-Elect?",
             "likelihood": 1
         }
     },
@@ -392,15 +392,8 @@ campaignTrail_temp.answers_json = [
         "pk": 1679,
         "fields": {
             "question": 258,
+            "liberal": true,
             "description": "It\u2019s many things, really. Viet-Nam, the programs undertaken by Johnson, and other overarching foundational problems with the economy as it stands. What we need to do is get out of \u2018Nam, trim down these programs, and these foundational, er, problems\u2019ll solve themselves in all due time."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1661,
-        "fields": {
-            "question": 254,
-            "description": "Well, I don\u2019t really see an issue with this particular comment, though it could\u2019ve been worded a little better. Let Kirk be Kirk, we\u2019ve got a campaign to win."
         }
     },
     {
@@ -408,7 +401,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1662,
         "fields": {
             "question": 254,
-            "description": "Kirk is more tuned into Southern Politics, right? Some of this language, albeit toned down, would play pretty good down there. Get some folks to keep him in line, \u2018course, but let\u2019s let him play ball down South."
+            "description": "Look, alright. Me and Brooke had issues with Goldwater, some ones that we tried to clear up at the time, but both of us just could never get around to sitting down, face to face, with the man. There's a lot of things the two of us do regret about the whole ordeal, but we both feel our initial opposition was warranted. And these charges of infidelity on Brooke's part? Hogwash. Doesn't matter. Trash."
         }
     },
     {
@@ -416,7 +409,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1663,
         "fields": {
             "question": 254,
-            "description": "I\u2019ve had some time to really meet and understand Kirk, and gosh, we just can\u2019t let him get another opportunity to do something like this. Put him on a leash, get some folks from Rockefeller around him non-stop, keeping him away from the Press."
+            "description": "This is something, alright. Let's just nip this in the bud, as fast as we can. Get me and Ed on a plane to Phoenix, let's sit down with Goldwater, try and eek an endorsement out of him... let's play it careful on this whole Brooke story, too. Johnson is pulling something here."
         }
     },
     {
@@ -424,15 +417,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1664,
         "fields": {
             "question": 254,
-            "description": "God - This Kirk guy is a real character, isn\u2019t he? Is he gonna say Hubert is a Communist spy next? Get the man on lockdown. I\u2019ve come to realize he\u2019s more of a detriment than a help."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1665,
-        "fields": {
-            "question": 255,
-            "description": "I\u2019ve been having some really swell conversations with Richard Cornuelle as of late, and he had just the darndest idea - We can keep up most of our current civil rights programs, but where Federal intervention isn\u2019t necessary, we leave it to the people to leverage their tools as private citizens - Boycotts, and the like."
+            "description": "Wel- what President Johnson did in Chicago is absolutely terrible. Totally unbecoming of a candidate, of the President, for god's sake. This is an issue for the sanctity of America. We cannot have a man who has American blood on his hands remain in office any more than he absolutely has to."
         }
     },
     {
@@ -440,7 +425,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1666,
         "fields": {
             "question": 255,
-            "description": "Well, my position is obvious, isn\u2019t it? I say we go full speed ahead on integration, to finally lay to rest the vice of segregation. To boot, segregation in housing has still gone largely untouched by the Johnson Administration, and I plan to remedy that."
+            "description": "We must go out of our way to distance ourselves from these people. Their views on Vietnam aside, they're widely out of the mainstream, and I don't want to be associated with them more than I have to."
         }
     },
     {
@@ -448,7 +433,8 @@ campaignTrail_temp.answers_json = [
         "pk": 1667,
         "fields": {
             "question": 255,
-            "description": "I can criticize the Johnson Administration over many things, but civil rights is just not one of them. He\u2019s done great over the past 6 years, repairing his tainted image from his time as Senate Majority Leader. I plan to keep close to the Administration's general plans on civil rights, yessir."
+            "liberal": true,
+            "description": "We find ourselves embroiled in a most unjust war, which President Johnson has seen fit to bring to our very streets, as we saw in Chicago. I'll do anything possible to court these people, anything to dump Johnson."
         }
     },
     {
@@ -456,7 +442,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1668,
         "fields": {
             "question": 255,
-            "description": "The general thrusts of civil rights initiatives over the past few years have been great, but we stand at a time when we can prioritize only the gravest of issues. Viet-Nam, the growing centralization of power into the federal government, and the moral decay afflicting America are simply far more important. I pledge to expand civil rights initiatives, of course, once these issues are dealt with."
+            "description": "I will do nothing more to encourage them, nor dissuade them. I appreciate their support, but I am a Republican first, and against Vietnam and Johnson second. I am not going to compromise any of my ideals."
         }
     },
     {
@@ -464,55 +450,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1670,
         "fields": {
             "question": 256,
-            "description": "I have to say, the violence and chaos at the Convention shows just how far America has fallen - Just 8 years ago, this would\u2019ve been unthinkable. Decay, not just of a moral kind, has gripped America. Something has to give."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1671,
-        "fields": {
-            "question": 256,
-            "description": "I think this shows just how much 8 years of total Democratic control of government has left them bitter and exhausted, intellectually and politically. It\u2019s time to turn a new page, and move on from the chaos of the Johnson Administration."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1672,
-        "fields": {
-            "question": 256,
-            "description": "If they can\u2019t even keep their own coronation ceremony in order, who knows what 4 years of a Humphrey Presidency would look like? Will Congress have to legislate as tear gas seeps into the halls, while skulls are cracked just outside?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1673,
-        "fields": {
-            "question": 257,
-            "description": "Let\u2019s just hit on the sheer unpopularity of the Johnson Administration, and do anything we can to tie Humphrey to that sinking ship. He knows inflation is on the rise, that we\u2019re faltering in Viet-Nam. He\u2019s the Vice-President, for Christ\u2019s sake."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1674,
-        "fields": {
-            "question": 257,
-            "description": "If our polling holds up, we can simply coast to election day. It may not have worked for Dewey in \u201848, but in this environment? Humphrey simply can\u2019t pull a Truman. No, it\u2019s impossible."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1675,
-        "fields": {
-            "question": 257,
-            "description": "Alright, these gains are starting to worry me - Hall says not to worry, but we\u2019ve got to up the ante. Let\u2019s target key states that we have to win. I\u2019m talking about the big industrial states, the core of our coalition. Get our staffers from Michigan on that front."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1676,
-        "fields": {
-            "question": 257,
-            "description": "We\u2019re in the lead, so let\u2019s act like it. Let\u2019s host a series of\u2026Policy seminars, and communicate our programs to solve the problems ailing America in an intellectual fashion."
+            "description": "By God - what has Lyndon done?"
         }
     },
     {
@@ -544,39 +482,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1687,
         "fields": {
             "question": 260,
-            "description": "Gladly - Look, I think they\u2019ve amassed far too much power in the political arena, and I\u2019ve seen that firsthand here in Michigan. Domination of our Political Parties by special interests leaves our elected officials beholden, unable to properly act."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1716,
-        "fields": {
-            "question": 269,
-            "description": "While Humphrey sweeps these folks up, let\u2019s jab at him from the left. A Romney Administration will go much further for civil rights than a hypothetical Humphrey one\u2019ll ever do, and I\u2019ve got a record to back that up."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1717,
-        "fields": {
-            "question": 269,
-            "description": "These folks want two things - Less Government, and a brighter future. I\u2019ll bring both of those things to the table, and then some. Show off my plans for furthering State Responsibility and the Independent Sector, and highlight our positive rhetoric."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1718,
-        "fields": {
-            "question": 269,
-            "description": "It\u2019s a Sunday. Leonard, you know I take my day of rest on Sunday, as per usual. Let me relax with Lenore and Mitt in peace."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1719,
-        "fields": {
-            "question": 269,
-            "description": "These Union men want someone to speak for them, who has the grit to get past the blockades put up by their leaders - I\u2019m that someone. Get me down to a Union hall, get me past the thugs guarding it, and I\u2019ll speak to the men, personally."
+            "description": "Gladly - look, I think they\u2019ve amassed far too much power in the political arena, and I\u2019ve seen that firsthand here in Michigan. Domination of our Political Parties by special interests leaves our elected officials beholden, unable to properly act."
         }
     },
     {
@@ -584,7 +490,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1720,
         "fields": {
             "question": 270,
-            "description": "If you want an Administration that will be dutifully honest with the American people, then look no further. The credibility gap that\u2019s been allowed to fester under Johnson\u2019s watch is alarming, and we\u2019ve got to put a stop to it."
+            "description": "I can't say I'm not glad that Wallace is out of the race. If he had his way, he'd set the nation back decades. Let's greet the news not with despair, but with optimism. His campaign was actively harming America, and with him out of the race, we can secure a solid mandate built on a working majority."
         }
     },
     {
@@ -592,7 +498,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1721,
         "fields": {
             "question": 270,
-            "description": "I think the timing says a lot. This Administration will do anything it takes to win, even if it means abandoning the very policies it has been committed to for years - I support the move, yes, but the timing is clearly suspect."
+            "description": "The timing is suspect. I think the Administration is now willing to do anything it takes to win. What happened? First Chicago, now this? What's happening to our democracy? I want to hold off on directly accusing the Administration of anything, but this is... deeply disconcerting."
         }
     },
     {
@@ -600,7 +506,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1722,
         "fields": {
             "question": 270,
-            "description": "It\u2019s time we\u2019ve had sound fiscal management in this nation again. If you want a soundly run federal government, inflation to go down, and for the end of the shift of power to D.C., then you know who to pull the lever for."
+            "description": "Well, this can only help Lyndon, no? Let's try and run up our margins where we can win, then. Get Brooke canvassing the campuses in Massachusetts, while I'll scour the suburbs of Detroit. We can contain any gains Johnson'll make to the South."
         }
     },
     {
@@ -616,7 +522,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1745,
         "fields": {
             "question": 277,
-            "description": "The Viet-Nam War is where Humphrey is really struggling, even if he\u2019s come out in favor of a bombing halt - The Johnson association still taints him. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
+            "description": "The Viet-Nam War is where Johnson is really struggling. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
         }
     },
     {
@@ -624,7 +530,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1746,
         "fields": {
             "question": 277,
-            "description": "Let\u2019s hit on the Johnson connection, non-stop. We\u2019ve got to hammer on the fact that the two are one and the same, and that Humphrey\u2019ll continue to pursue these unsound economic policies that will ultimately bury us in inflation and debt."
+            "description": "Chicago. I want this hit on, non-stop, again. Whenever voters even get the idea that Johnson isn't all bad, I want them to be reminded of that damned tragedy."
         }
     },
     {
@@ -632,39 +538,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1747,
         "fields": {
             "question": 277,
-            "description": "I\u2019m not letting us be ran up from behind like Dick was back in \u201860 - Let\u2019s put out an image of Republican Unity, in contrast to deep Democratic disarray, and get all our Party Elders out there campaigning for us."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1756,
-        "fields": {
-            "question": 280,
-            "description": "Drat. Let\u2019s cross our t\u2019s and dot our i\u2019s, and campaign hard in our must-win states. I\u2019m talking about our industrial core, of course. Hopefully we can counter his surge in the polls if his support isn\u2019t concentrated enough to make a difference. "
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1757,
-        "fields": {
-            "question": 280,
-            "description": "We\u2019ll win not because of our position on Viet-Nam, but because we\u2019re focusing on kitchen table issues, something every American can relate to. Notice the price of beef rising, how the price of just about everything is rising? We\u2019ll nip this inflation in the bud, lickity-split."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1758,
-        "fields": {
-            "question": 280,
-            "description": "Let\u2019s just go through the motions. We\u2019re still leading consistently in the polls after all, and if we rock the boat too much, we may bleed more support than we\u2019d gain."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 1759,
-        "fields": {
-            "question": 280,
-            "description": "Let\u2019s just recommit on Viet-Nam, then. Put out a statement reiterating our support for a permanent bombing halt, speedy negotiations, and a withdrawal from the Vietnamese quagmire."
+            "description": "I\u2019m not letting us be ran up from behind like Dick was back in \u201860 - let\u2019s put out an image of Republican Unity, in contrast to deep Democratic disarray, and get all our Party Elders out there campaigning for us."
         }
     },
     {
@@ -704,7 +578,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1775,
         "fields": {
             "question": 285,
-            "description": "We need to put forward an image of unwavering hope and faith in our future - We are on the precipice of greatness, and it\u2019s like a tunnel. You have to go through the dark to get to the light."
+            "description": "We need to put forward an image of unwavering hope and faith in our future - we are on the precipice of greatness, and it\u2019s like a tunnel. You have to go through the dark to get to the light."
         }
     },
     {
@@ -712,7 +586,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1773,
         "fields": {
             "question": 285,
-            "description": "It all goes back to the White House - Believe me, if Jack Kennedy or Dick Nixon was in the White House today, we wouldn\u2019t be having these problems. The Johnson Administration is inept, and we need to hit on that non-stop."
+            "description": "It all goes back to the White House - believe me, if Jack Kennedy or Dick Nixon was in the White House today, we wouldn\u2019t be having these problems. The Johnson Administration is inept, is complicit in crime, and we need to hit on that non-stop."
         }
     },
     {
@@ -728,7 +602,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1776,
         "fields": {
             "question": 286,
-            "description": "Lyndon Johnson has to be the most corrupt figure in recent history - that's not even among his worst, lies, you've got to understand. This idea of him as a civil rights' crusader - it's a joke. He has done nothing for the black out of the sincerity of his heart, nothing whatsoever. I am positive that he went on that whole tangent just to batter Goldwater with in '64."
+            "description": "Lyndon Johnson - yea, yea. Has to be one of the worst... with what happened in Chicago? Unbelievable. It really is."
         }
     },
     {
@@ -744,6 +618,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1778,
         "fields": {
             "question": 286,
+            "liberal": true,
             "description": "\u2026Y\u2019know, that\u2019s a good point. The\u2026Lies, really, coming from the Administration over Vietnam is tantamount to treason - I, I even got this a little, in my trip a while back. Feel as if I was brainwashed."
         }
     },
@@ -752,7 +627,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1779,
         "fields": {
             "question": 287,
-            "description": "No. Y-You know what? This insinuation that I am a racist or some sort of racist-adjacent, because of my Church, is deeply insulting. No. Johnson and his cronies know what they\u2019re doing, and I won\u2019t stand for it."
+            "description": "No. Y-you know what? This insinuation that I am a racist or some sort of racist-adjacent, because of my Church, is deeply insulting. No. Johnson and his cronies know what they\u2019re doing, and I won\u2019t stand for it."
         }
     },
     {
@@ -773,14 +648,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 1789,
-        "fields": {
-            "question": 290,
-            "description": "Alright, alright. We need to make sure I can\u2019t fail this - Get Nelson on the line, get all his people. Hall says we need to fit myself into a mold all Americans can agree with come the Debate, and he hasn\u2019t been wrong so far."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 1790,
         "fields": {
             "question": 290,
@@ -792,7 +659,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1791,
         "fields": {
             "question": 290,
-            "description": "Nope - None at all. Get Hall to bring up some of the standard legal excuses to skimp out of it, and let\u2019s put this to rest."
+            "description": "Nope - none at all. Doubt Johnson even wants to himself - let's just pump funds into ads in our must-win states."
         }
     },
     {
@@ -885,14 +752,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 3235,
-        "fields": {
-            "question": 323,
-            "description": "How\u2019d this get out there? Yeah, I\u2019d love to have the two of \u2018em on board. In fact, let's put out a statement that they\u2019ll be in our Cabinet, absolutely. We can really hash out the details and touch base later - Just get this out now."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 3236,
         "fields": {
             "question": 323,
@@ -912,7 +771,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3238,
         "fields": {
             "question": 323,
-            "description": "No, no. To be frank, I\u2019m looking at some other younger figures within the Party to be in my cabinet. Percy, Brooke, and Morton, to name a few."
+            "description": "No, no. To be frank, I\u2019m looking at some other younger figures within the Party to be in my cabinet. Percy, Kuchel, and Morton, to name a few."
         }
     },
     {
@@ -944,7 +803,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3243,
         "fields": {
             "question": 325,
-            "description": "The Midwest - We have to secure the Midwest. We\u2019ve got some flash polls from our private agencies, and things are looking a little shaky there."
+            "description": "The Midwest - we have to secure the Midwest. We\u2019ve got some flash polls from our private agencies, and things are looking a little shaky there."
         }
     },
     {
@@ -952,15 +811,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3244,
         "fields": {
             "question": 325,
-            "description": "It\u2019s looking like a sweep, so let\u2019s make it one. Get me a plane to New York, send word out to Rockefeller - We\u2019re taking the Empire State, hell or high water."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3245,
-        "fields": {
-            "question": 325,
-            "description": "Kirk has been talking to me. The man may be an ass, but he\u2019s smart - Florida and some other states in the South seem to be softening up, and a visit there may just tip the scales. Let\u2019s get to it."
+            "description": "It\u2019s looking like a sweep, so let\u2019s make it one. Get me a plane to New York, send word out to Rockefeller - we\u2019re taking the Empire State, hell or high water."
         }
     },
     {
@@ -968,7 +819,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3246,
         "fields": {
             "question": 325,
-            "description": "We just got off the phone with John Marriott, and he says things aren\u2019t so good in the Pacific - We\u2019re gonna need California, in all likelihood, to win, so let\u2019s sew it up. "
+            "description": "We just got off the phone with John Marriott, and he says things aren\u2019t so good in the Pacific - we\u2019re gonna need California, in all likelihood, to win, so let\u2019s sew it up. "
         }
     },
     {
@@ -976,7 +827,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3247,
         "fields": {
             "question": 326,
-            "description": "This is our moment, now that we\u2019re past the primaries. We have to get out of Vietnam, and fast. Immediate bombing halt, we\u2019ve got to get talks started so that we can get an acceptable peace."
+            "description": "This is disgusting. President Johnson overrode the results of the primaries, of the people, for his own personal gain. We're going to hammer on this every chance we get. President Johnson is not a legitimate candidate."
         }
     },
     {
@@ -984,15 +835,8 @@ campaignTrail_temp.answers_json = [
         "pk": 3248,
         "fields": {
             "question": 326,
-            "description": "Let\u2019s loop in Nixon, Kissinger, and Rockefeller - We\u2019ve got to put out a statement that makes sense, and, most importantly, is one framed around the general consensus as it stands."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3249,
-        "fields": {
-            "question": 326,
-            "description": "Well, let's not elaborate on this much. We can put together a complete policy later, but tell folks we're for total amnesty, withdrawal of the North Vietnamese and their proxies, free and fair elections, and a quick and easy withdrawal from the theater, just to tide the press over."
+            "liberal": true,
+            "description": "What President Johnson did? I have no words for it. He subverted our very democracy, to force his own nomination, and look what happened? No. I won't take advantage of this for my campaign - I will loudly denounce the entire move, this abortion of democracy, for the sake of our Nation."
         }
     },
     {
@@ -1000,7 +844,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3250,
         "fields": {
             "question": 326,
-            "description": "To say nothing. Look, if Humphrey isn\u2019t putting out an actual policy, why should we? At this rate, we\u2019ll coast to the Presidency anyway."
+            "description": "By God, we needed this. I want denunciations of this damn thing every chance we get. President Johnson has blood on his hands, and he knows it. I don't even want voters to go a second without being reminded of this whole fiasco."
         }
     },
     {
@@ -1040,7 +884,8 @@ campaignTrail_temp.answers_json = [
         "pk": 3292,
         "fields": {
             "question": 338,
-            "description": "Alright, it\u2019s about time we really stabbed at the root of the issue, Goldwater. Get on a plane to Phoenix, arrange for a meeting, and we\u2019ll talk for god knows how long, at least till we put our issues behind us."
+            "liberal": true,
+            "description": "I'm sorry, but who won? We did. This is our campaign, our campaign to run - it's well within our rights to select a most experienced man as our candidate for the Vice-Presidency. Besides, they wouldn't think of it. They wouldn't dare."
         }
     },
     {
@@ -1048,7 +893,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3293,
         "fields": {
             "question": 338,
-            "description": "Time for Kirk\u2019s first outing, seems like. Get him to spiel some conservative rhetoric, while I stand on the sidelines, acting all statesmen-like."
+            "description": "I understand how the way we got Brooke on the ticket was disingenuous, I really do. I'm willing to do what it takes to help calm these folks down, whatever it takes."
         }
     },
     {
@@ -1056,15 +901,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3294,
         "fields": {
             "question": 338,
-            "description": "These firebrand conservatives will never forgive me for listening to my conscience, but it\u2019s best not to fan the flames. Don\u2019t comment on the matter, let my surrogates handle it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3295,
-        "fields": {
-            "question": 338,
-            "description": "You know, once you get down to me, on the fundamental issues, me and Goldwater are closer than we are apart. Get me down to D.C., and get a speech in front of me that hammers the rapidly-bloating federal government and emphasizes the need for States\u2019 Responsibility."
+            "description": "Well, we can afford to throw them a bone or two, can't we? Get Brooke to emphasize his conservative principles, his support of free enterprise, of his commitment to the party."
         }
     },
     {
@@ -1489,6 +1326,46 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 3430,
             "description": "California… Get Reagan on the line. If we can take California, we may just be able to clinch this - Humphrey really can’t win without it. It’s impossible. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3350,
+        "fields": {
+            "question": 2700,
+            "description": "uhoh. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3351,
+        "fields": {
+            "question": 2701,
+            "description": "uhoh "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3352,
+        "fields": {
+            "question": 2910,
+            "description": "We musn't leave the South to Johnson or Wallace to sweep - I am certain that, given good effort on our part, a sizeable portion of the common-sense Southern electorate will come around to our ticket. I want some stops in Virginia, in Oklahoma, in Kentucky - anything we can, and will, win. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3353,
+        "fields": {
+            "question": 2910,
+            "description": "With Wallace shedding voters from his 'left', let's see if we can snatch back some of the conservatives he's attempting to woo - I want to hit on the moral decay afflicting America, the degredation of the nuclear family, the rising crime, everything. See if that'll help. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3354,
+        "fields": {
+            "question": 2910,
+            "description": "We won't be able to force ourselves into the South to take advantage of this, that's for certain. Let's play up my visits to key Northern states. Kentucky, Tennessee - they don't hold a light to the electoral punch New York can bring to bear."
         }
     }
 ]
@@ -6404,17 +6281,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1668,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.078
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1078,
-        "fields": {
-            "answer": 1672,
-            "candidate": 23,
-            "affected_candidate": 24,
-            "global_multiplier": -0.028
+            "global_multiplier": 0.021
         }
     },
     {
@@ -6439,72 +6306,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1075,
-        "fields": {
-            "answer": 1722,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.071
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1073,
-        "fields": {
-            "answer": 1721,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.091
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1072,
-        "fields": {
-            "answer": 1719,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.231
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1070,
-        "fields": {
-            "answer": 1717,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.251
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1068,
-        "fields": {
-            "answer": 1718,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.221
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1066,
-        "fields": {
-            "answer": 1716,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.181
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1065,
         "fields": {
             "answer": 1678,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.003
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6514,7 +6321,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 8666,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.031
+            "global_multiplier": -0.022
         }
     },
     {
@@ -6524,7 +6331,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1746,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.029
+            "global_multiplier": -0.022
         }
     },
     {
@@ -6554,7 +6361,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3260,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.041
+            "global_multiplier": -0.05
         }
     },
     {
@@ -6564,7 +6371,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3262,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.066
+            "global_multiplier": -0.046
         }
     },
     {
@@ -6574,47 +6381,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3259,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.049
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1057,
-        "fields": {
-            "answer": 1756,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.081
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1056,
-        "fields": {
-            "answer": 1757,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.078
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1055,
-        "fields": {
-            "answer": 1759,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.072
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1054,
-        "fields": {
-            "answer": 1758,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.116
+            "global_multiplier": -0.05
         }
     },
     {
@@ -6654,27 +6421,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1779,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.106
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1037,
-        "fields": {
-            "answer": 1790,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": 0.102
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1036,
-        "fields": {
-            "answer": 1774,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.019
+            "global_multiplier": -0.036
         }
     },
     {
@@ -6689,22 +6436,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1034,
-        "fields": {
-            "answer": 1773,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.011
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1029,
         "fields": {
             "answer": 1773,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.009
+            "global_multiplier": 0.009
         }
     },
     {
@@ -6714,37 +6451,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1775,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1007,
-        "fields": {
-            "answer": 1674,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.066
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1013,
-        "fields": {
-            "answer": 1675,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.034
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1009,
-        "fields": {
-            "answer": 1676,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.036
+            "global_multiplier": 0.009
         }
     },
     {
@@ -6759,32 +6466,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1005,
-        "fields": {
-            "answer": 1671,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": 0.026
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1004,
-        "fields": {
-            "answer": 1670,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": 0.011
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1003,
         "fields": {
             "answer": 1663,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.029
+            "global_multiplier": -0.043
         }
     },
     {
@@ -6794,7 +6481,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1664,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.063
+            "global_multiplier": -0.041
         }
     },
     {
@@ -6804,7 +6491,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1662,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.033
+            "global_multiplier": -0.047
         }
     },
     {
@@ -6834,7 +6521,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1667,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.061
+            "global_multiplier": 0.011
         }
     },
     {
@@ -6844,27 +6531,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3292,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.003
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 4017,
-        "fields": {
-            "answer": 3295,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": 0.003
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 4016,
-        "fields": {
-            "answer": 3294,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.031
+            "global_multiplier": -0.019
         }
     },
     {
@@ -6874,7 +6541,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3231,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.003
+            "global_multiplier": -0.283
         }
     },
     {
@@ -6889,62 +6556,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 708,
-        "fields": {
-            "answer": 1661,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.093
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 726,
-        "fields": {
-            "answer": 1670,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": 0.014
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 728,
-        "fields": {
-            "answer": 1671,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": 0.016
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 730,
-        "fields": {
-            "answer": 1672,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 817,
-        "fields": {
-            "answer": 1720,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.092
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 861,
         "fields": {
             "answer": 1745,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.028
+            "global_multiplier": -0.023
         }
     },
     {
@@ -6954,7 +6571,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1747,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.03
+            "global_multiplier": -0.02
         }
     },
     {
@@ -6964,7 +6581,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1761,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.009
+            "global_multiplier": -0.011
         }
     },
     {
@@ -6984,7 +6601,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1776,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.063
+            "global_multiplier": 0.009
         }
     },
     {
@@ -6994,17 +6611,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1781,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.046
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 926,
-        "fields": {
-            "answer": 1789,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.066
+            "global_multiplier": -0.026
         }
     },
     {
@@ -7049,16 +6656,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 952,
-        "fields": {
-            "answer": 3235,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.071
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 955,
         "fields": {
             "answer": 3244,
@@ -7094,7 +6691,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3247,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.017
         }
     },
     {
@@ -7104,17 +6701,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3248,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 963,
-        "fields": {
-            "answer": 3249,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.042
+            "global_multiplier": 0.021
         }
     },
     {
@@ -7124,17 +6711,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3250,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.028
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 989,
-        "fields": {
-            "answer": 3293,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.008
+            "global_multiplier": 0.020
         }
     },
     {
@@ -7179,22 +6756,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 717,
-        "fields": {
-            "answer": 1665,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 914,
         "fields": {
             "answer": 1780,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.098
+            "global_multiplier": -0.032
         }
     },
     {
@@ -7204,7 +6771,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1793,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.011
+            "global_multiplier": -0.02
         }
     },
     {
@@ -7239,46 +6806,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 719,
-        "fields": {
-            "answer": 1667,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": 0.035
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 721,
-        "fields": {
-            "answer": 1668,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.022
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 727,
-        "fields": {
-            "answer": 1670,
-            "candidate": 23,
-            "affected_candidate": 24,
-            "global_multiplier": -0.041
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 729,
-        "fields": {
-            "answer": 1671,
-            "candidate": 23,
-            "affected_candidate": 24,
-            "global_multiplier": -0.041
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 745,
         "fields": {
             "answer": 1677,
@@ -7294,7 +6821,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1685,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.009
+            "global_multiplier": -0.029
         }
     },
     {
@@ -7304,7 +6831,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1686,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.019
+            "global_multiplier": -0.033
         }
     },
     {
@@ -7314,7 +6841,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1687,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.009
+            "global_multiplier": -0.029
         }
     },
     {
@@ -7324,7 +6851,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1720,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.033
+            "global_multiplier": -0.853
         }
     },
     {
@@ -7334,7 +6861,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1721,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.035
+            "global_multiplier": -111.035
         }
     },
     {
@@ -7344,47 +6871,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1722,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 881,
-        "fields": {
-            "answer": 1756,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.07
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 883,
-        "fields": {
-            "answer": 1757,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.07
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 884,
-        "fields": {
-            "answer": 1758,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.07
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 887,
-        "fields": {
-            "answer": 1759,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": -0.07
+            "global_multiplier": -11.03
         }
     },
     {
@@ -7404,7 +6891,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1778,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.8
+            "global_multiplier": 0.009
         }
     },
     {
@@ -7916,8 +7403,257 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 25,
             "global_multiplier": -0.024
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9142,
+        "fields": {
+            "answer": 1670,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": -0.333
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9144,
+        "fields": {
+            "answer": 3261,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9144,
+        "fields": {
+            "answer": 3242,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9145,
+        "fields": {
+            "answer": 3292,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9146,
+        "fields": {
+            "answer": 3294,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9147,
+        "fields": {
+            "answer": 3294,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9148,
+        "fields": {
+            "answer": 3293,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9149,
+        "fields": {
+            "answer": 3293,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9150,
+        "fields": {
+            "answer": 1774,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9151,
+        "fields": {
+            "answer": 1791,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9152,
+        "fields": {
+            "answer": 1720,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": 0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9153,
+        "fields": {
+            "answer": 1688,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.029
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9154,
+        "fields": {
+            "answer": 3350,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.249
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9155,
+        "fields": {
+            "answer": 3351,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": 0.111
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9156,
+        "fields": {
+            "answer": 3352,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9157,
+        "fields": {
+            "answer": 3352,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": -0.241
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9158,
+        "fields": {
+            "answer": 3353,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": -0.261
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9159,
+        "fields": {
+            "answer": 3353,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9160,
+        "fields": {
+            "answer": 3353,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9161,
+        "fields": {
+            "answer": 3354,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9162,
+        "fields": {
+            "answer": 3354,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "global_multiplier": -0.276
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9163,
+        "fields": {
+            "answer": 3354,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "global_multiplier": 0.014
+        }
     }
-]   
+]  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 campaignTrail_temp.answer_score_issue_json = [
     {
@@ -7928,36 +7664,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 12,
             "issue_score": 0.4,
             "issue_importance": 21.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 9070,
-        "fields": {
-            "answer": 1716,
-            "issue": 11,
-            "issue_score": 0.7,
-            "issue_importance": 16.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 9069,
-        "fields": {
-            "answer": 1717,
-            "issue": 15,
-            "issue_score": -0.3,
-            "issue_importance": 16.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 9068,
-        "fields": {
-            "answer": 1717,
-            "issue": 14,
-            "issue_score": -0.3,
-            "issue_importance": 16.5
         }
     },
     {
@@ -8006,7 +7712,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1794,
             "issue": 11,
-            "issue_score": -0.8,
+            "issue_score": 0.5,
             "issue_importance": 13.5
         }
     },
@@ -8015,8 +7721,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 9062,
         "fields": {
             "answer": 1794,
-            "issue": 14,
-            "issue_score": -0.8,
+            "issue": 12,
+            "issue_score": -0.3,
             "issue_importance": 19.5
         }
     },
@@ -8036,7 +7742,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1678,
             "issue": 15,
-            "issue_score": -0.6,
+            "issue_score": -0.4,
             "issue_importance": 19.5
         }
     },
@@ -8046,7 +7752,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1678,
             "issue": 14,
-            "issue_score": -0.6,
+            "issue_score": -0.5,
             "issue_importance": 19.5
         }
     },
@@ -8122,26 +7828,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 1051,
-        "fields": {
-            "answer": 1757,
-            "issue": 14,
-            "issue_score": -0.2,
-            "issue_importance": 19.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1050,
-        "fields": {
-            "answer": 1759,
-            "issue": 11,
-            "issue_score": 0.5,
-            "issue_importance": 19.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 1048,
         "fields": {
             "answer": 3238,
@@ -8206,7 +7892,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1774,
             "issue": 12,
-            "issue_score": -0.5,
+            "issue_score": -0.3,
             "issue_importance": 19.5
         }
     },
@@ -8216,7 +7902,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1773,
             "issue": 11,
-            "issue_score": 0.5,
+            "issue_score": 0.2,
             "issue_importance": 14.5
         }
     },
@@ -8226,7 +7912,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 1773,
             "issue": 14,
-            "issue_score": 0.5,
+            "issue_score": 0.2,
             "issue_importance": 9.5
         }
     },
@@ -8242,42 +7928,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 4032,
-        "fields": {
-            "answer": 1665,
-            "issue": 15,
-            "issue_score": -0.3,
-            "issue_importance": 16.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4031,
-        "fields": {
-            "answer": 1665,
-            "issue": 13,
-            "issue_score": -0.4,
-            "issue_importance": 20.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 4030,
         "fields": {
             "answer": 3247,
-            "issue": 11,
-            "issue_score": 1.0,
-            "issue_importance": 40.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4029,
-        "fields": {
-            "answer": 3249,
-            "issue": 11,
-            "issue_score": 0.3,
-            "issue_importance": 7.5
+            "issue": 12,
+            "issue_score": 0.6,
+            "issue_importance": 25.5
         }
     },
     {
@@ -8285,19 +7941,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 4028,
         "fields": {
             "answer": 3248,
-            "issue": 11,
-            "issue_score": 0.1,
+            "issue": 12,
+            "issue_score": 0.3,
             "issue_importance": 23.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4021,
-        "fields": {
-            "answer": 3292,
-            "issue": 14,
-            "issue_score": -0.3,
-            "issue_importance": 18.5
         }
     },
     {
@@ -8305,8 +7951,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 4023,
         "fields": {
             "answer": 3292,
-            "issue": 12,
-            "issue_score": -0.2,
+            "issue": 11,
+            "issue_score": 0.4,
             "issue_importance": 19.5
         }
     },
@@ -8315,8 +7961,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 4022,
         "fields": {
             "answer": 3292,
-            "issue": 15,
-            "issue_score": -0.5,
+            "issue": 13,
+            "issue_score": 0.4,
             "issue_importance": 18.5
         }
     },
@@ -8326,8 +7972,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3293,
             "issue": 12,
-            "issue_score": -0.3,
-            "issue_importance": 9.5
+            "issue_score": -0.6,
+            "issue_importance": 19.5
         }
     },
     {
@@ -8336,8 +7982,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3293,
             "issue": 14,
-            "issue_score": -0.4,
-            "issue_importance": 10.5
+            "issue_score": -0.6,
+            "issue_importance": 15.5
         }
     },
     {
@@ -8347,7 +7993,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3293,
             "issue": 15,
             "issue_score": -0.5,
-            "issue_importance": 8.5
+            "issue_importance": 18.5
         }
     },
     {
@@ -8356,7 +8002,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3294,
             "issue": 12,
-            "issue_score": 0.3,
+            "issue_score": -0.3,
             "issue_importance": 16.5
         }
     },
@@ -8366,7 +8012,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3294,
             "issue": 14,
-            "issue_score": 0.3,
+            "issue_score": -0.3,
             "issue_importance": 13.0
         }
     },
@@ -8376,78 +8022,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3294,
             "issue": 15,
-            "issue_score": 0.3,
+            "issue_score": -0.3,
             "issue_importance": 14.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4013,
-        "fields": {
-            "answer": 3295,
-            "issue": 12,
-            "issue_score": -0.2,
-            "issue_importance": 19.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4014,
-        "fields": {
-            "answer": 3295,
-            "issue": 14,
-            "issue_score": -0.4,
-            "issue_importance": 19.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 4015,
-        "fields": {
-            "answer": 3295,
-            "issue": 15,
-            "issue_score": -0.6,
-            "issue_importance": 19.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 691,
-        "fields": {
-            "answer": 3231,
-            "issue": 11,
-            "issue_score": -0.1,
-            "issue_importance": 5.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 692,
-        "fields": {
-            "answer": 3231,
-            "issue": 12,
-            "issue_score": -0.4,
-            "issue_importance": 8.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 693,
-        "fields": {
-            "answer": 3231,
-            "issue": 14,
-            "issue_score": -0.2,
-            "issue_importance": 7.5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 694,
-        "fields": {
-            "answer": 3231,
-            "issue": 15,
-            "issue_score": -0.25,
-            "issue_importance": 6.5
         }
     },
     {
@@ -8487,26 +8063,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3232,
             "issue": 15,
             "issue_score": -0.6,
-            "issue_importance": 14.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 706,
-        "fields": {
-            "answer": 3235,
-            "issue": 14,
-            "issue_score": -0.3,
-            "issue_importance": 14.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 708,
-        "fields": {
-            "answer": 3235,
-            "issue": 15,
-            "issue_score": -0.3,
             "issue_importance": 14.0
         }
     },
@@ -9219,8 +8775,332 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": -0.5,
             "issue_importance": 20.0
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 777,
+        "fields": {
+            "answer": 1778,
+            "issue": 11,
+            "issue_score": 1.0,
+            "issue_importance": 11.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 778,
+        "fields": {
+            "answer": 1778,
+            "issue": 12,
+            "issue_score": -0.1,
+            "issue_importance": 19.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 779,
+        "fields": {
+            "answer": 1776,
+            "issue": 12,
+            "issue_score": -0.3,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 780,
+        "fields": {
+            "answer": 3250,
+            "issue": 12,
+            "issue_score": 0.1,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 781,
+        "fields": {
+            "answer": 1667,
+            "issue": 11,
+            "issue_score": 0.7,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 782,
+        "fields": {
+            "answer": 1667,
+            "issue": 13,
+            "issue_score": 0.5,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 783,
+        "fields": {
+            "answer": 1668,
+            "issue": 11,
+            "issue_score": 0.5,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 784,
+        "fields": {
+            "answer": 1668,
+            "issue": 13,
+            "issue_score": 0.3,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 785,
+        "fields": {
+            "answer": 1666,
+            "issue": 11,
+            "issue_score": 0.3,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 786,
+        "fields": {
+            "answer": 1666,
+            "issue": 14,
+            "issue_score": -0.1,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 787,
+        "fields": {
+            "answer": 1666,
+            "issue": 15,
+            "issue_score": -0.1,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 788,
+        "fields": {
+            "answer": 1663,
+            "issue": 12,
+            "issue_score": -0.1,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 789,
+        "fields": {
+            "answer": 1663,
+            "issue": 14,
+            "issue_score": -0.5,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 790,
+        "fields": {
+            "answer": 1663,
+            "issue": 15,
+            "issue_score": -0.5,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 791,
+        "fields": {
+            "answer": 1663,
+            "issue": 12,
+            "issue_score": 0.1,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 792,
+        "fields": {
+            "answer": 1663,
+            "issue": 14,
+            "issue_score": -0.2,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 793,
+        "fields": {
+            "answer": 1663,
+            "issue": 15,
+            "issue_score": -0.2,
+            "issue_importance": 25.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 794,
+        "fields": {
+            "answer": 1761,
+            "issue": 11,
+            "issue_score": 0.2,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 795,
+        "fields": {
+            "answer": 3353,
+            "issue": 11,
+            "issue_score": -0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 796,
+        "fields": {
+            "answer": 3353,
+            "issue": 12,
+            "issue_score": -0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 797,
+        "fields": {
+            "answer": 3353,
+            "issue": 13,
+            "issue_score": -0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 798,
+        "fields": {
+            "answer": 3353,
+            "issue": 14,
+            "issue_score": -0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 799,
+        "fields": {
+            "answer": 3353,
+            "issue": 15,
+            "issue_score": -0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 800,
+        "fields": {
+            "answer": 3354,
+            "issue": 11,
+            "issue_score": 0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 801,
+        "fields": {
+            "answer": 3354,
+            "issue": 12,
+            "issue_score": 0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 802,
+        "fields": {
+            "answer": 3354,
+            "issue": 13,
+            "issue_score": 0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 803,
+        "fields": {
+            "answer": 3354,
+            "issue": 14,
+            "issue_score": 0.5,
+            "issue_importance": 16.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 804,
+        "fields": {
+            "answer": 3354,
+            "issue": 15,
+            "issue_score": 0.5,
+            "issue_importance": 16.5
+        }
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 campaignTrail_temp.answer_score_state_json = [
     {
@@ -9489,17 +9369,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 2034,
-        "fields": {
-            "answer": 1756,
-            "state": 110,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 2033,
         "fields": {
             "answer": 3246,
@@ -9507,72 +9376,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "state_multiplier": 0.049
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2032,
-        "fields": {
-            "answer": 1756,
-            "state": 109,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2031,
-        "fields": {
-            "answer": 1756,
-            "state": 121,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2036,
-        "fields": {
-            "answer": 1756,
-            "state": 131,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2037,
-        "fields": {
-            "answer": 1756,
-            "state": 119,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2038,
-        "fields": {
-            "answer": 1756,
-            "state": 146,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2039,
-        "fields": {
-            "answer": 1756,
-            "state": 118,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.019
         }
     },
     {
@@ -9594,7 +9397,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 140,
             "candidate": 23,
             "affected_candidate": 25,
-            "state_multiplier": 0.182
+            "state_multiplier": 0.222
         }
     },
     {
@@ -9606,303 +9409,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "state_multiplier": -0.142
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1015,
-        "fields": {
-            "answer": 1675,
-            "state": 146,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1014,
-        "fields": {
-            "answer": 1675,
-            "state": 119,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1016,
-        "fields": {
-            "answer": 1675,
-            "state": 118,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1017,
-        "fields": {
-            "answer": 1675,
-            "state": 109,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1018,
-        "fields": {
-            "answer": 1675,
-            "state": 121,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1019,
-        "fields": {
-            "answer": 1675,
-            "state": 110,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1020,
-        "fields": {
-            "answer": 1675,
-            "state": 131,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.021
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9009,
-        "fields": {
-            "answer": 1664,
-            "state": 129,
-            "candidate": 25,
-            "affected_candidate": 23,
-            "state_multiplier": -0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9010,
-        "fields": {
-            "answer": 1662,
-            "state": 138,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9011,
-        "fields": {
-            "answer": 1662,
-            "state": 113,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.026
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9012,
-        "fields": {
-            "answer": 1662,
-            "state": 142,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.026
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9013,
-        "fields": {
-            "answer": 1662,
-            "state": 105,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.031
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9002,
-        "fields": {
-            "answer": 1662,
-            "state": 129,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.026
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9003,
-        "fields": {
-            "answer": 1664,
-            "state": 138,
-            "candidate": 25,
-            "affected_candidate": 23,
-            "state_multiplier": -0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9004,
-        "fields": {
-            "answer": 1664,
-            "state": 113,
-            "candidate": 25,
-            "affected_candidate": 23,
-            "state_multiplier": -0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9005,
-        "fields": {
-            "answer": 1664,
-            "state": 142,
-            "candidate": 25,
-            "affected_candidate": 23,
-            "state_multiplier": -0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9008,
-        "fields": {
-            "answer": 1664,
-            "state": 105,
-            "candidate": 25,
-            "affected_candidate": 23,
-            "state_multiplier": -0.018
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6000,
-        "fields": {
-            "answer": 1665,
-            "state": 129,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.007
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6001,
-        "fields": {
-            "answer": 1665,
-            "state": 138,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.041
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6002,
-        "fields": {
-            "answer": 1665,
-            "state": 142,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.051
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6003,
-        "fields": {
-            "answer": 1665,
-            "state": 105,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.058
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6008,
-        "fields": {
-            "answer": 1668,
-            "state": 129,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.062
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6009,
-        "fields": {
-            "answer": 1668,
-            "state": 138,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.062
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6010,
-        "fields": {
-            "answer": 1668,
-            "state": 113,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.094
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6011,
-        "fields": {
-            "answer": 1668,
-            "state": 142,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.114
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 6012,
-        "fields": {
-            "answer": 1668,
-            "state": 105,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.059
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 4024,
-        "fields": {
-            "answer": 1671,
-            "state": 109,
-            "candidate": 23,
-            "affected_candidate": 24,
-            "state_multiplier": -0.08
         }
     },
     {
@@ -10123,39 +9629,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 23,
             "affected_candidate": 25,
             "state_multiplier": -0.16
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9096,
-        "fields": {
-            "answer": 1664,
-            "state": 106,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "state_multiplier": 0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9097,
-        "fields": {
-            "answer": 1663,
-            "state": 0,
-            "candidate": 0,
-            "affected_candidate": 0,
-            "state_multiplier": 0.0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 9098,
-        "fields": {
-            "answer": 1661,
-            "state": 0,
-            "candidate": 0,
-            "affected_candidate": 0,
-            "state_multiplier": 0.0
         }
     },
     {
@@ -10683,7 +10156,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 100,
             "candidate": 23,
             "affected_candidate": 23,
-            "state_multiplier": -0.040
+            "state_multiplier": -0.050
         }
     },
     {
@@ -10694,7 +10167,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 114,
             "candidate": 23,
             "affected_candidate": 23,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.05
         }
     },
     {
@@ -12390,8 +11863,1718 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 23,
             "state_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9294,
+        "fields": {
+            "answer": 3231,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9295,
+        "fields": {
+            "answer": 3231,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9296,
+        "fields": {
+            "answer": 3231,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9297,
+        "fields": {
+            "answer": 3231,
+            "state": 125,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9298,
+        "fields": {
+            "answer": 3231,
+            "state": 141,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9299,
+        "fields": {
+            "answer": 3231,
+            "state": 103,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9230,
+        "fields": {
+            "answer": 3231,
+            "state": 135,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9231,
+        "fields": {
+            "answer": 1670,
+            "state": 139,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9232,
+        "fields": {
+            "answer": 1670,
+            "state": 113,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9233,
+        "fields": {
+            "answer": 1670,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9234,
+        "fields": {
+            "answer": 1670,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.21
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9235,
+        "fields": {
+            "answer": 1670,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.26
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9236,
+        "fields": {
+            "answer": 1670,
+            "state": 139,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.21
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9237,
+        "fields": {
+            "answer": 1670,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9238,
+        "fields": {
+            "answer": 1670,
+            "state": 103,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9239,
+        "fields": {
+            "answer": 1670,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9240,
+        "fields": {
+            "answer": 1670,
+            "state": 135,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9241,
+        "fields": {
+            "answer": 1670,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9242,
+        "fields": {
+            "answer": 1670,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9243,
+        "fields": {
+            "answer": 1670,
+            "state": 121,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9244,
+        "fields": {
+            "answer": 1670,
+            "state": 107,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9245,
+        "fields": {
+            "answer": 3231,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9247,
+        "fields": {
+            "answer": 1670,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9248,
+        "fields": {
+            "answer": 1670,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9249,
+        "fields": {
+            "answer": 1670,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9250,
+        "fields": {
+            "answer": 1670,
+            "state": 143,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9251,
+        "fields": {
+            "answer": 1670,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9252,
+        "fields": {
+            "answer": 1667,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9253,
+        "fields": {
+            "answer": 1667,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9254,
+        "fields": {
+            "answer": 1667,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9255,
+        "fields": {
+            "answer": 1667,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9256,
+        "fields": {
+            "answer": 1667,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9257,
+        "fields": {
+            "answer": 1667,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9258,
+        "fields": {
+            "answer": 1667,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9259,
+        "fields": {
+            "answer": 1667,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9260,
+        "fields": {
+            "answer": 1667,
+            "state": 121,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9261,
+        "fields": {
+            "answer": 1667,
+            "state": 121,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9262,
+        "fields": {
+            "answer": 1667,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9263,
+        "fields": {
+            "answer": 1667,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9264,
+        "fields": {
+            "answer": 1667,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9265,
+        "fields": {
+            "answer": 1667,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9266,
+        "fields": {
+            "answer": 1667,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9267,
+        "fields": {
+            "answer": 1667,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9268,
+        "fields": {
+            "answer": 1667,
+            "state": 133,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9269,
+        "fields": {
+            "answer": 1667,
+            "state": 133,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9270,
+        "fields": {
+            "answer": 1667,
+            "state": 143,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9271,
+        "fields": {
+            "answer": 1667,
+            "state": 143,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9272,
+        "fields": {
+            "answer": 1667,
+            "state": 116,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9273,
+        "fields": {
+            "answer": 1667,
+            "state": 116,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": 0.02
+        }
+    },
+   {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9274,
+        "fields": {
+            "answer": 3239,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9275,
+        "fields": {
+            "answer": 1239,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9276,
+        "fields": {
+            "answer": 1239,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9277,
+        "fields": {
+            "answer": 1239,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9278,
+        "fields": {
+            "answer": 1239,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9279,
+        "fields": {
+            "answer": 1239,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9280,
+        "fields": {
+            "answer": 1720,
+            "state": 97,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9281,
+        "fields": {
+            "answer": 1720,
+            "state": 106,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9282,
+        "fields": {
+            "answer": 1720,
+            "state": 114,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9283,
+        "fields": {
+            "answer": 1720,
+            "state": 100,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9284,
+        "fields": {
+            "answer": 1720,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9285,
+        "fields": {
+            "answer": 1720,
+            "state": 135,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9286,
+        "fields": {
+            "answer": 1720,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9287,
+        "fields": {
+            "answer": 1720,
+            "state": 105,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9288,
+        "fields": {
+            "answer": 1720,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9289,
+        "fields": {
+            "answer": 1720,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9290,
+        "fields": {
+            "answer": 1720,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9291,
+        "fields": {
+            "answer": 1720,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9292,
+        "fields": {
+            "answer": 1720,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9293,
+        "fields": {
+            "answer": 1670,
+            "state": 99,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9294,
+        "fields": {
+            "answer": 1670,
+            "state": 98,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9295,
+        "fields": {
+            "answer": 1670,
+            "state": 124,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9296,
+        "fields": {
+            "answer": 1670,
+            "state": 140,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9297,
+        "fields": {
+            "answer": 1670,
+            "state": 127,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9298,
+        "fields": {
+            "answer": 1670,
+            "state": 102,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9299,
+        "fields": {
+            "answer": 1670,
+            "state": 108,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9300,
+        "fields": {
+            "answer": 1670,
+            "state": 147,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9301,
+        "fields": {
+            "answer": 1670,
+            "state": 122,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9302,
+        "fields": {
+            "answer": 1668,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9303,
+        "fields": {
+            "answer": 1668,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9304,
+        "fields": {
+            "answer": 1668,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9305,
+        "fields": {
+            "answer": 1668,
+            "state": 121,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9306,
+        "fields": {
+            "answer": 1668,
+            "state": 122,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9307,
+        "fields": {
+            "answer": 1668,
+            "state": 122,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9308,
+        "fields": {
+            "answer": 1668,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9309,
+        "fields": {
+            "answer": 1668,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9310,
+        "fields": {
+            "answer": 1668,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9311,
+        "fields": {
+            "answer": 1668,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9312,
+        "fields": {
+            "answer": 1668,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9313,
+        "fields": {
+            "answer": 1668,
+            "state": 103,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9314,
+        "fields": {
+            "answer": 1668,
+            "state": 126,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9315,
+        "fields": {
+            "answer": 1668,
+            "state": 133,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9316,
+        "fields": {
+            "answer": 3352,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9317,
+        "fields": {
+            "answer": 3352,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9318,
+        "fields": {
+            "answer": 3352,
+            "state": 113,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9319,
+        "fields": {
+            "answer": 3352,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9320,
+        "fields": {
+            "answer": 3352,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9321,
+        "fields": {
+            "answer": 3352,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9322,
+        "fields": {
+            "answer": 3352,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9323,
+        "fields": {
+            "answer": 3352,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9324,
+        "fields": {
+            "answer": 3352,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9325,
+        "fields": {
+            "answer": 3352,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9326,
+        "fields": {
+            "answer": 3352,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9327,
+        "fields": {
+            "answer": 3352,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9328,
+        "fields": {
+            "answer": 3352,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9329,
+        "fields": {
+            "answer": 3352,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9330,
+        "fields": {
+            "answer": 3352,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9331,
+        "fields": {
+            "answer": 3352,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9332,
+        "fields": {
+            "answer": 3352,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.038
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9333,
+        "fields": {
+            "answer": 3352,
+            "state": 113,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.038
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9334,
+        "fields": {
+            "answer": 3352,
+            "state": 105,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9335,
+        "fields": {
+            "answer": 3352,
+            "state": 105,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9336,
+        "fields": {
+            "answer": 3352,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.038
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9337,
+        "fields": {
+            "answer": 3352,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9338,
+        "fields": {
+            "answer": 3353,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9339,
+        "fields": {
+            "answer": 3353,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9340,
+        "fields": {
+            "answer": 3353,
+            "state": 113,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9341,
+        "fields": {
+            "answer": 3353,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9342,
+        "fields": {
+            "answer": 3353,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9343,
+        "fields": {
+            "answer": 3353,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9344,
+        "fields": {
+            "answer": 3353,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9345,
+        "fields": {
+            "answer": 3353,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9324,
+        "fields": {
+            "answer": 3353,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9346,
+        "fields": {
+            "answer": 3353,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9347,
+        "fields": {
+            "answer": 3353,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9348,
+        "fields": {
+            "answer": 3353,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9349,
+        "fields": {
+            "answer": 3353,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9350,
+        "fields": {
+            "answer": 3353,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9351,
+        "fields": {
+            "answer": 3353,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9352,
+        "fields": {
+            "answer": 3353,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9354,
+        "fields": {
+            "answer": 3352,
+            "state": 105,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9355,
+        "fields": {
+            "answer": 3352,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.038
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9357,
+        "fields": {
+            "answer": 3354,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9358,
+        "fields": {
+            "answer": 3354,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9359,
+        "fields": {
+            "answer": 3354,
+            "state": 113,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9360,
+        "fields": {
+            "answer": 3354,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9361,
+        "fields": {
+            "answer": 3354,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9362,
+        "fields": {
+            "answer": 3354,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9363,
+        "fields": {
+            "answer": 3354,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9364,
+        "fields": {
+            "answer": 3354,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9365,
+        "fields": {
+            "answer": 3354,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9366,
+        "fields": {
+            "answer": 3354,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9367,
+        "fields": {
+            "answer": 3354,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.017
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9368,
+        "fields": {
+            "answer": 3354,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9369,
+        "fields": {
+            "answer": 3354,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9370,
+        "fields": {
+            "answer": 3354,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9371,
+        "fields": {
+            "answer": 3354,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 24,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9372,
+        "fields": {
+            "answer": 3354,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 25,
+            "state_multiplier": -0.018
+        }
+    },    
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9373,
+        "fields": {
+            "answer": 3354,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9374,
+        "fields": {
+            "answer": 3354,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9375,
+        "fields": {
+            "answer": 3354,
+            "state": 103,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9376,
+        "fields": {
+            "answer": 3354,
+            "state": 118,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9377,
+        "fields": {
+            "answer": 3354,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9378,
+        "fields": {
+            "answer": 3354,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9379,
+        "fields": {
+            "answer": 3354,
+            "state": 119,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.018
+        }
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 campaignTrail_temp.answer_feedback_json = [
     {
@@ -12409,7 +13592,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1763,
             "candidate": 23,
-            "answer_feedback": "Conservatives reel, while Wallace decries Mitt\u2019s cowardice, and yours for standing up for him."
+            "answer_feedback": "Conservatives reel, while Wallace decries Mitt\u2019s cowardice, and yours for standing up for him. Your base in the campuses cheer you on."
         }
     },
     {
@@ -12423,47 +13606,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 5071,
-        "fields": {
-            "answer": 1716,
-            "candidate": 23,
-            "answer_feedback": "Senator Brooke and a cohort of other Black Republicans come out to further hit home the message in a series of rallies with you and Kirk. It's a series of uncomfortable events for Kirk, to put it simply."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5072,
-        "fields": {
-            "answer": 1719,
-            "candidate": 23,
-            "answer_feedback": "This isn\u2019t the first time you\u2019ve done something like this, but word gets ahead to the local chapter that you\u2019re planning to drop by, and they have none of it. A standoff ensues, before you ultimately stomp off."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5073,
-        "fields": {
-            "answer": 1718,
-            "candidate": 23,
-            "answer_feedback": "Leonard apologies, and then organizes some events with Senator Griffin and Minority Leader Ford that go pretty well. You wake up the next day refreshed, ready to continue your march on the White House."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5074,
-        "fields": {
-            "answer": 1717,
-            "candidate": 23,
-            "answer_feedback": "The \u2018Silent Majority\u2019, as Nixon once called them, is more than receptive to this type of rhetoric. While liberals accuse you of promising the moon, more than a few folks still take to you."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 5075,
         "fields": {
             "answer": 1720,
             "candidate": 23,
-            "answer_feedback": "By proxy, this hits the Administration on Viet-Nam, while also hitting on a chord within the public. People don\u2019t like how Johnson has misled them."
+            "answer_feedback": "Your staffers wish they could hold the same optimism. Brooke agrees with your sentiment, he's glad not to have Wallace hecklers at any of his rallies anymore."
         }
     },
     {
@@ -12472,7 +13619,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1722,
             "candidate": 23,
-            "answer_feedback": "An appeal on bread-and-butter appeals certainly isn\u2019t the worst thing you could do, though you don\u2019t do much to blunt Humphrey\u2019s gains in the Anti-War crowd."
+            "answer_feedback": "You perfected your campaigining in the suburbs over your past 3 gubernatorial campaigns, and it shows on the campaign trail. Brooke is heckeled by a young woman at Wellesley College, accusing him of not being fully against Vietnam. He fumbles through a rebuttal."
         }
     },
     {
@@ -12481,16 +13628,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1721,
             "candidate": 23,
-            "answer_feedback": "Johnson surrogates fire back that the President did the move with no electoral impacts in mind, something a good amount of the public reckons."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5035,
-        "fields": {
-            "answer": 3235,
-            "candidate": 23,
-            "answer_feedback": "They both put out a statement absolutely denying that they will, infuriated by your failure to touch base beforehand. Kirk, nursing hard whiskey, calls you a dumbass."
+            "answer_feedback": "Most of your staffers echo your feelings. The next few days till the election are a blur, fearing that Johnson will unleash the dirtiest tricks imaginable on your campaign."
         }
     },
     {
@@ -12508,7 +13646,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3237,
             "candidate": 23,
-            "answer_feedback": "The Republican Establishment and, well, anyone with a brain drop dead when they hear you propose Reagan as Secretary of the Treasury. Kirk is more than enthusiastic, and at the next rally, is looking far more upbeat than usual."
+            "answer_feedback": "The Republican Establishment and, well, anyone with a brain drop dead when they hear you propose Reagan as Secretary of the Treasury. Brooke is non-plussed when he hears the news."
         }
     },
     {
@@ -12517,43 +13655,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3238,
             "candidate": 23,
-            "answer_feedback": "No harm, no foul, though naming Brooke raises a few eyebrows. Folks in the South and feckless Suburbanites imagine Brooke as Attorney General, and are terrified at the thought. Kirk delivers a stunning rant filled with things that ought not to be repeated, and you wish you never picked him."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5039,
-        "fields": {
-            "answer": 1759,
-            "candidate": 23,
-            "answer_feedback": "By reminding these Anti-War folks that you\u2019ve been with them all along, you blunt any gains Humphrey might\u2019ve gained, though Wallace eagerly ravages you for your \u2018defeatism\u2019. Kirk, chewing tabacco and his breath reeking, rambles on about how you ought to pivot towards the right, and leave the hippies to the wayside."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5040,
-        "fields": {
-            "answer": 1757,
-            "candidate": 23,
-            "answer_feedback": "While your rhetoric on inflation is generally supported by most Americans, it does nothing to blunt the gains Humphrey is making among the Anti-War crowd."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5041,
-        "fields": {
-            "answer": 1758,
-            "candidate": 23,
-            "answer_feedback": "Hall frets over the Ghost of \u201860, worried that such a tactic may lead to another humiliating loss for him, but goes along with your reasoning."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5042,
-        "fields": {
-            "answer": 1756,
-            "candidate": 23,
-            "answer_feedback": "You don\u2019t really need New York or California to win the election anyways, if you sweep the midwest. Playing it safe like this is a surefire way to the White House. Kirk, puffing a cigar and blowing smoke into your face, calls you a pussy."
+            "answer_feedback": "No harm, no foul. These are all rising stars within the party, to be sure."
         }
     },
     {
@@ -12562,7 +13664,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3242,
             "candidate": 23,
-            "answer_feedback": "The public, when presented with the facts as you present them, generally agree. The impact on the polls is minor, though positive."
+            "answer_feedback": "The public, when presented with the facts as you present them, generally agree, especially after the Chicago disaster. The impact on the polls is minor, though positive."
         }
     },
     {
@@ -12589,7 +13691,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1776,
             "candidate": 23,
-            "answer_feedback": "Humphrey and a whole slew of other Democrats issue a strong denunciation and rebuttal of your remarks, with the public generally agreeing that your remarks were uncalled for."
+            "answer_feedback": "Just keep yourself honed in on Chicago - this is Johnson's biggest weakspot."
         }
     },
     {
@@ -12598,7 +13700,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1777,
             "candidate": 23,
-            "answer_feedback": "The Goldwater issue had been fading into the background of the election. Why did you bring it up again? Kirk and Hall just wish you'd shut up."
+            "answer_feedback": "The Goldwater issue had been fading into the background of the election. Why did you bring it up again? Brooke agrees with you - hell, he wrote a book on why Goldwater was such a bad candidate - but still wishes you'd have just stayed quiet."
         }
     },
     {
@@ -12607,7 +13709,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8765,
             "candidate": 23,
-            "answer_feedback": "You\u2019re clearly talking about Nelson - The papers the next day hit on an apparent split between the two of you, and if there wasn\u2019t already one, there is now. Kirk is starting to like you, finally."
+            "answer_feedback": "You\u2019re clearly talking about Nelson - The papers the next day hit on an apparent split between the two of you, and if there wasn\u2019t already one, there is now. Brooke is more than befuddled when he hears the statement repeated verbatim."
         }
     },
     {
@@ -12616,7 +13718,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1778,
             "candidate": 23,
-            "answer_feedback": "You\u2019ve accused the sitting President of treason, and that brainwashing comment is a controversy of its own caliber. Kissinger isn't returning your calls, and Kirk is laughing his ass off."
+            "answer_feedback": "Well, this is an... interesting statement. Thankfully, it flies under the weather, burried by emerging reports on the status of the Congressional investigation into the Chicago massacre."
         }
     },
     {
@@ -12625,7 +13727,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8666,
             "candidate": 23,
-            "answer_feedback": "Voters react warmly to your new pivot towards the Independent Sector, and a flash poll by gallup shows they agree that it ought to handle more responsibilities than the Government. Kirk could care less about whatever queer theories Richard Cornuelle is peddling."
+            "answer_feedback": "Voters react warmly to your new pivot towards the Independent Sector, and a flash poll by gallup shows they agree that it ought to handle more responsibilities than the Government. Brooke's already had the pleasure of meeting Cornuelle, though wonders if you shouldn't be hitting Johnson on Chicago."
         }
     },
     {
@@ -12634,7 +13736,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1745,
             "candidate": 23,
-            "answer_feedback": "If you keep reminding the American people about Viet-Nam, you\u2019re bound to keep jaded Democrats and Independents out of the Humphrey camp. Kirk, on his part, privately expresses his frustrations that you aren't for a stronger stance on Vietnam."
+            "answer_feedback": "If you keep reminding the American people about Viet-Nam, you\u2019re bound to keep jaded Democrats and Independents out of the Humphrey camp. Brooke's long been against Vietnam - hell, he campaigned against it in '66."
         }
     },
     {
@@ -12643,7 +13745,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1747,
             "candidate": 23,
-            "answer_feedback": "By the next week, you see Rockefeller, Dirksen, Ford, and Dick Nixon out there sporting Romney pins on the streets. You\u2019ve even managed to wheel Ike out of abject retirement to give a speech or two in support of your campaign. Kirk mumbles something about Ike being a faux Republican."
+            "answer_feedback": "By the next week, you see Rockefeller, Dirksen, Ford, and Dick Nixon out there sporting Romney pins on the streets. You\u2019ve even managed to wheel Ike out of abject retirement to give a speech or two in support of your campaign. Brooke strikes up a spirited discussion with Ike on Vietnam, and the two hit it off."
         }
     },
     {
@@ -12652,7 +13754,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1746,
             "candidate": 23,
-            "answer_feedback": "Just keep hitting on the economy. The American people are bound to agree with your economic sensibilities."
+            "answer_feedback": "This late in the race, you're beginning to sound like a broken record on Chicago, but it still does the trick for the most part."
         }
     },
     {
@@ -12688,7 +13790,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1793,
             "candidate": 23,
-            "answer_feedback": "In the minds of your Anti-War supporters, memories of students shot dead and Reagan\u2019s harsh crackdown still ring true. Disgusted, they prepare to either stay home or pull the lever for Humphrey come election day. Kirk can't help but agree, and is glad you're finally talking sense."
+            "answer_feedback": "In the minds of your Anti-War supporters, memories of students shot dead and Reagan\u2019s harsh crackdown still ring true. Disgusted, they prepare to stay home or write in some liberal as a protest vote. You've lost a key demographic with this move, George."
         }
     },
     {
@@ -12697,7 +13799,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1794,
             "candidate": 23,
-            "answer_feedback": "Cautious, yet supportive. Conservatives are disgusted, of course, but this is a sentiment most people can get behind. Kirk wishes the National Guard would unleash volley after volley into these types of gatherings."
+            "answer_feedback": "Cautious, yet supportive. Conservatives are disgusted, of course, but this is a sentiment most people can get behind. Considering the fact that these folks are either for you or staying home, this is the best way to go."
         }
     },
     {
@@ -12706,25 +13808,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1792,
             "candidate": 23,
-            "answer_feedback": "Kirk and a good portion of Republican leadership echo this sentiment the next chance they get. Moderate and harsh, yet fair."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5010,
-        "fields": {
-            "answer": 1674,
-            "candidate": 23,
-            "answer_feedback": "Hall gives a wonderful presentation on just why it\u2019s impossible, and with all the evidence arrayed in front of you, it\u2019s convincing."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5011,
-        "fields": {
-            "answer": 1675,
-            "candidate": 23,
-            "answer_feedback": "Walter DeVries and the Michigan team are ecstatic to be assigned the duty of canvassing these states, and their effectiveness is noticeable."
+            "answer_feedback": "A good portion of Republican leadership echo this sentiment the next chance they get. Moderate and harsh, yet fair - but is this worth angering the electorate on the campuses?"
         }
     },
     {
@@ -12738,20 +13822,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 5013,
-        "fields": {
-            "answer": 1676,
-            "candidate": 23,
-            "answer_feedback": "You awkwardly issue a rambling and ineloquent question on how you would handle racial chaos, one which the press picks apart."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 5015,
         "fields": {
             "answer": 1775,
             "candidate": 23,
-            "answer_feedback": "You lay out your message in a widely-acclaimed speech, and many Americans take to your tunnel analogy, even if some dismiss it as unintellectual."
+            "answer_feedback": "You lay out your message in a widely-acclaimed speech, and many Americans take to your tunnel analogy, eager to cling onto something positive with the events of the past year."
         }
     },
     {
@@ -12760,7 +13835,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1773,
             "candidate": 23,
-            "answer_feedback": "A haughty charge, to be sure, but you\u2019ve failed to offer how exactly you would solve these things. Really, it sounds like you\u2019re saying Dick should\u2019ve gotten the nomination."
+            "answer_feedback": "A haughty charge, to be sure, but the Chicago fiasco has certainly colored things in a new light."
         }
     },
     {
@@ -12769,7 +13844,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1774,
             "candidate": 23,
-            "answer_feedback": "The Press has come up for a name for these types of things - Romneyisms, they\u2019re calling them. You\u2019ve hit on Law & Order in your own special way, even if some fidget at your comment on Bobby and Jack Kennedy."
+            "answer_feedback": "Do people really want so much negativity, when the national mood has been poisoned so much? Nevertheless, your position in the polls improve."
         }
     },
     {
@@ -12778,7 +13853,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1790,
             "candidate": 23,
-            "answer_feedback": "At first, Humphrey seemed to be carrying himself well, before you delivered the most eloquent rebuttal - Knocked off balance, he\u2019d falter and turn vindictive as you handily sprinted through the rest of the debate."
+            "answer_feedback": "Johnson refuses. What did you expect? He'll never commit to one, when he knows you'll put him on the spot with Chicago. Too much risk."
         }
     },
     {
@@ -12787,16 +13862,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1791,
             "candidate": 23,
-            "answer_feedback": "The public couldn\u2019t care much, and Hall thinks you\u2019ve dodged a bullet with this move."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5021,
-        "fields": {
-            "answer": 1789,
-            "candidate": 23,
-            "answer_feedback": "Throughout the debate, you seemed awkward and uneasy, a sharp contrast to the confident and easy-going Humphrey. You\u2019ve lost the debate, George."
+            "answer_feedback": "Some vivid ads on the Chicago fiasco hit the air a week later, and they're riveting. Just keep it in the minds of voters."
         }
     },
     {
@@ -12805,7 +13871,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1779,
             "candidate": 23,
-            "answer_feedback": "As the reporters hurriedly scramble to get more, Hall rushes out to shoo them away, and in a split-second glance at his face, you can tell he\u2019s more than frustrated."
+            "answer_feedback": "Even with Brooke on the ticket, the Johnson campaign pounces. Black hecklers, likely sent out as part of Johnson's dirty tricks operation, harass you whenever you make a speech, demanding a repudiation of your Church."
         }
     },
     {
@@ -12814,7 +13880,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1780,
             "candidate": 23,
-            "answer_feedback": "Your faith and commitment to your Church is admirable, but partisans don\u2019t care. This issue won\u2019t go away simply because you won\u2019t talk about it."
+            "answer_feedback": "Even with Brooke on the ticket, the Johnson campaign pounces. Black hecklers, likely sent out as part of Johnson's dirty tricks operation, harass you whenever you make a speech, demanding a repudiation of your Church."
         }
     },
     {
@@ -12823,7 +13889,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1781,
             "candidate": 23,
-            "answer_feedback": "The President of the L.D.S., upon his next public appearance, is pressed to comment on your statement. He sighs, furrows his brows, and mumbles something before swatting away the reporters."
+            "answer_feedback": "The President of the L.D.S., upon his next public appearance, is pressed to comment on your statement. He sighs, furrows his brows, and mumbles something before swatting away the reporters. Johnson surrogates demand you go further, continuing to hound you on the issue. "
         }
     },
     {
@@ -12832,7 +13898,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1688,
             "candidate": 23,
-            "answer_feedback": "As you finish with your carefully constructed statement, you bid the reporters in front of you farewell. They jot away at the notebooks in front of them, knowing that nothing of import was really said."
+            "answer_feedback": "A heckler in the back causes a ruckus, shouting back at you - alleging that you're doing the bidding of private folks with 'excess power', their pawn. You're thrown off balance, and stumble through the rest of your speech."
         }
     },
     {
@@ -12841,7 +13907,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1686,
             "candidate": 23,
-            "answer_feedback": "Over the next few weeks, you notice a growing frustration over the lack of any conclusive statement on the Union issue. Reporters pull back from your past, fumbling for any position to stick to you."
+            "answer_feedback": "Failing to issue any decisive statement on the matter, Johnson surrogates eagerly pound on you. Alleging that you will destroy unions, serve fat cats, everything - terrible slanderers, all of them."
         }
     },
     {
@@ -12850,7 +13916,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1687,
             "candidate": 23,
-            "answer_feedback": "The handful of citizens in your audience nod their heads, while the reporters hurriedly jot down what you\u2019ve just said. They, for whatever reason, think what you\u2019ve said is abnormal. They don\u2019t know you, clearly. "
+            "answer_feedback": "As soon as you finish your speech, Johnson surrogates put out a reaction, refutation, and rebuttal eerily quickly. "
         }
     },
     {
@@ -12859,7 +13925,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1685,
             "candidate": 23,
-            "answer_feedback": "Another Romneyism, but one that goes over fairly well. Some can\u2019t help but point out the irony of a former CEO lecturing Americans on the dominance of Big Business, but the Average Joe gets where you\u2019re coming from."
+            "answer_feedback": "As you begin your maiden speech on the topic, a commotion begins in the crowd. That commotion turns into a brawl, for whatever reason - you're quickly hurried out. The whole event leaves a bad taste in your mouth."
         }
     },
     {
@@ -12877,7 +13943,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3259,
             "candidate": 23,
-            "answer_feedback": "Marriott, loyal and diligent as ever, comes up short. His associates were for Nixon or Reagan, and sorely disappointed in your candidacy. "
+            "answer_feedback": "Marriott, loyal and diligent as ever, comes up short. His associates were for Nixon or Reagan, and sorely disappointed in your candidacy - your selection of Brooke only made things worse to them, too. "
         }
     },
     {
@@ -12886,7 +13952,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3260,
             "candidate": 23,
-            "answer_feedback": "Innovative, and extremely effective. You find your campaign flush with more funds than ever before, while the Humphrey Campaign\u2019s effort to close the funding gap is quickly wiped out."
+            "answer_feedback": "Innovative, and extremely effective. You find your campaign flush with more funds than ever before, while the Johnson campaign\u2019s effort to close the funding gap is quickly wiped out."
         }
     },
     {
@@ -12895,7 +13961,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3262,
             "candidate": 23,
-            "answer_feedback": "It seems he has here, George. He\u2019s begun focusing efforts on a bid to increase financial aid to Israel, leaving your campaign by the wayside."
+            "answer_feedback": "Fischer is certainly motivated to pay attention to the election following the Chicago fiasco - he works the donors, bringing in a hefty haul."
         }
     },
     {
@@ -12904,7 +13970,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3293,
             "candidate": 23,
-            "answer_feedback": "Kirk lives and breathes the new conservative dogma of the day, elegantly touting his credentials on William Buckley\u2019s Firing Line, among other things. You just look awkward, sitting there while Kirk and Buckley get into the thick of it."
+            "answer_feedback": "This seems to satiate the less rabid conservatives, and the talk of Reagan running third party seems to die down. Still, with no other real conservative alternative in the race, more than a few folks flock to Wallace."
         }
     },
     {
@@ -12913,16 +13979,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1662,
             "candidate": 23,
-            "answer_feedback": "In this modern age, it\u2019s harder to play rhetoric fine tuned to a region and then change it in another, but Kirk certainly knows the ins and outs of the new politics in the South."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 652,
-        "fields": {
-            "answer": 1661,
-            "candidate": 23,
-            "answer_feedback": "This goes well, at first, before Kirk unfurls a gaffe so explosive it\u2019s plastered all over the evening news, and stays in the media cycle for a week."
+            "answer_feedback": "This is true - in your case, at least - but this doesn't actually do anything. These are just excuses. The next day, Governor Reagan publicly muses about opposing your candidates, on the same grounds you did in '64 against Goldwater."
         }
     },
     {
@@ -12931,7 +13988,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1663,
             "candidate": 23,
-            "answer_feedback": "Kirk resents his newfound restrictions, and makes his frustrations known to the press, although he plays ball for the most part."
+            "answer_feedback": "You and Brooke commune with Goldwater, and emerge without any actual progress made. The meeting soon dissolves into a tepid argument, before Goldwater tells you to go before things get any worse. An endorsement doesn't come."
         }
     },
     {
@@ -12940,16 +13997,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3294,
             "candidate": 23,
-            "answer_feedback": "Goldwater doesn\u2019t even try to hide his frustration at the lack of a response, or even some sort of apology, on your part. Reagan picks up on this, and is soon openly attacking you, eager to gracefully take upon himself the mantle of leader of conservatives within the party. Kirk would be doing the same, if he weren't nailed to your side."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5004,
-        "fields": {
-            "answer": 3295,
-            "candidate": 23,
-            "answer_feedback": "Preaching on the failures of Johnson\u2019s big spending programs, the need for a smaller government, states\u2019 responsibility, and all those other phrases programmed to supposedly appeal to conservatives, the bid goes well enough. To Kirk, you say it how it is."
+            "answer_feedback": "This helps some, but more than a few conservatives point out Brooke's own dereliction of duty in 1964. Still, this works well enough, though a sizeable portion of conservatives are bound to stampede to Wallace."
         }
     },
     {
@@ -12958,7 +14006,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3292,
             "candidate": 23,
-            "answer_feedback": "You and Goldwater manage to get past the pains lingering from the \u201864 campaign, before a jovial conversation was soon struck up. Touching on topics ranging from the inefficacy of the Great Society to Golf, the two of you strike it off."
+            "answer_feedback": "As it turns out, it was talk, at least on Reagan's part - he was yanked back by his donors, thankfully. For other conservatives, though? They have nothing else to lose, and without Reagan in the race, they flock to Wallace."
         }
     },
     {
@@ -12967,25 +14015,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1670,
             "candidate": 23,
-            "answer_feedback": "Very Romney, and generally in tune with the public. Feckless partisan Democrats take the opportunity to lampoon your religiousness, associating it with some supposed \u2018stupidity\u2019 on your part. Kirk just wishes you said Johnson had screwed the pooch, he doesn't jive with the moral talk."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5008,
-        "fields": {
-            "answer": 1671,
-            "candidate": 23,
-            "answer_feedback": "This accurately captures the mood of America, and the Humphrey campaign only begins to further sink below the waves."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5006,
-        "fields": {
-            "answer": 1671,
-            "candidate": 23,
-            "answer_feedback": "This accurately captures the mood of America, and the Humphrey campaign only begins to further sink below the waves."
+            "answer_feedback": "The day's print of the <i>New York Times</i> is full of visceral images and disturbing reporting - as Johnson accepted his nomination, with fistfights on the floor still ongoing, a large group of protestors attempted to force their way into the convention. They're shot dead. The convention ends prematurely."
         }
     },
     {
@@ -12994,7 +14024,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1664,
             "candidate": 23,
-            "answer_feedback": "He\u2019s uncooperative to the max, practically going AWOL and committing himself - And you, by proxy - to conservative policies every chance he gets."
+            "answer_feedback": "Just keep dodging the problem, keep bringing up Chicago. Hall just knows it's working."
         }
     },
     {
@@ -13003,7 +14033,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1667,
             "candidate": 23,
-            "answer_feedback": "Johnson openly remarks that he\u2019s glad that you\u2019ve begun to campaign for him, while Hall just grits his teeth and attempts to salvage the situation. If you wanted to up national support of Republicans among Blacks, this isn\u2019t the way to do it."
+            "answer_feedback": "Such prominent peace figures as Allard Lowenstein, and even a still-bitter and furious McCarthy, line up behind your campaign. They're seemingly willing to look past most of your actual beliefs and platform, to boot. This is personal for them."
         }
     },
     {
@@ -13012,7 +14042,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1668,
             "candidate": 23,
-            "answer_feedback": "By effectively abandoning civil rights, you\u2019ve ceded a key portion of the electorate to Humphrey, not to mention the electoral impact this will have with Blacks. Kirk wishes you went further, but this is still a start."
+            "answer_feedback": "These types of people still continue to shift to you, irrespective of your refusal to pivot for them - Senator McCarthy doesn't goes as far as endorsing you, but he makes his positive feelings of you in comparison with Johnson widely known."
         }
     },
     {
@@ -13022,15 +14052,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3228,
             "candidate": 23,
             "answer_feedback": "One of your floormen track down own of Reagan's own, and demands he put down a hearty bet that you're gonna put Brooke on the ticket. The Reagan man refuses, and your floorman yells out the news to all that can hear - not even the Reagan folks want to bet on the bullshit they're spreading!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 5009,
-        "fields": {
-            "answer": 1672,
-            "candidate": 23,
-            "answer_feedback": "Hall sighs just outside your line of sight, pulling out a notepad and jotting down some notes on what topics you\u2019d be best to avoid."
         }
     },
     {
@@ -13053,15 +14074,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 5001,
-        "fields": {
-            "answer": 3231,
-            "candidate": 23,
-            "answer_feedback": "They buy it - discipline on the floor is tight, and Brooke is nominated, seconded, and put to a vote. Brooke clinches a majority - enough conservative delegates bought Hall's bullshit, while all of your delegates stayed in line. The convention breaks into chaos - Brooke is on the ticket, but at what cost?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 666,
         "fields": {
             "answer": 3243,
@@ -13075,7 +14087,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3244,
             "candidate": 23,
-            "answer_feedback": "Stabbing right into the heart of the Democratic stronghold of New York, you hold a vivid rally in the heart of New York City. Senators Brooke, Javits, and Governor Rockefeller help headline the event, drawing thousands."
+            "answer_feedback": "Stabbing right into the heart of the Democratic stronghold of New York, you hold a vivid rally in the heart of New York City. Senators Hatfield, Javits, and Governor Rockefeller help headline the event, drawing thousands. You give a rousing speech against Vietnam, and the predominantly young crowd bathes you in applause."
         }
     },
     {
@@ -13093,7 +14105,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3246,
             "candidate": 23,
-            "answer_feedback": "A late attempt to get Reagan to come out to campaign with you falls through, but you hold a strong send-off rally with Thomas Kuchel and Dick Nixon. Senator Brooke sends a note out to you, relaying his prayers."
+            "answer_feedback": "A late attempt to get Reagan to come out to campaign with you falls through, but you hold a strong send-off rally with Thomas Kuchel and Dick Nixon. You notice a disconcerting lack of enthusiasm wherever you lay foot."
         }
     },
     {
@@ -13102,7 +14114,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3247,
             "candidate": 23,
-            "answer_feedback": "You\u2019ve shirked your image of indecisiveness on Vietnam, in exchange for one of a solid dove. MacNamara, an old acquaintance, launches into a virulent tirade against your new policy in his next press conference. Kirk nearly publicly agrees with McNamara, talked down after an emergency intervention from Hall."
+            "answer_feedback": "Your words go to print, and your sentiment is lauded by every reputable paper in the country. This is America. This sort of chaos shouldn't be happening."
         }
     },
     {
@@ -13111,16 +14123,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3248,
             "candidate": 23,
-            "answer_feedback": "The end result is essentially a smorgasbord of Nixon and Rockefeller\u2019s rhetoric, at the expense of yours. It\u2019s received with much acclaim, the press remarking that you had finally found solid footing on foreign policy."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 672,
-        "fields": {
-            "answer": 3249,
-            "candidate": 23,
-            "answer_feedback": "This may have slid in the primaries, but people expect an actual policy now. You\u2019re raked over the coals for the next week over your simplistic and naive policy, and Humphrey is all too glad to shake off the media while he figures out his campaign. Kirk says if you had said we needed more bombing, more troops, everything, you'd be up in the polls, rather than down."
+            "answer_feedback": "Your words go to print, and your sentiment is lauded by every reputable paper in the country. This is America. This sort of chaos shouldn't be happening."
         }
     },
     {
@@ -13129,34 +14132,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3250,
             "candidate": 23,
-            "answer_feedback": "The press corp attached to you grows ever more frustrated, as you continually issue non sequiturs and false platitudes when they probe you about Viet-Nam. Said frustration is apparent whenever anything of theirs goes to print."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 679,
-        "fields": {
-            "answer": 1761,
-            "candidate": 24,
-            "answer_feedback": "This goes well, at first, before Kirk unfurls a gaffe so explosive it\u2019s plastered all over the evening news, and stays in the media cycle for a week."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 680,
-        "fields": {
-            "answer": 1664,
-            "candidate": 24,
-            "answer_feedback": "You are being cheered along by the liberal wing of the party, but overall you've probably lost votes with this position."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 681,
-        "fields": {
-            "answer": 1665,
-            "candidate": 23,
-            "answer_feedback": "Goldwater comes out and says that he\u2019s glad that you\u2019ve finally come around to \u2018his\u2019 position, while the Johnson Administration points out the idealism and likely failure of such a policy. Wallace, for his part, dismisses it out of hand."
+            "answer_feedback": "Your words go to print, and your sentiment is lauded by every reputable paper in the country. This is America. This sort of chaos shouldn't be happening."
         }
     },
     {
@@ -13165,25 +14141,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1666,
             "candidate": 23,
-            "answer_feedback": "Senator Brooke reacts warmly to your comments on the housing situation, and you attract accolades from the press over the general statement. Wallace screams and hollers, as expected. Kirk does the same in private."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 703,
-        "fields": {
-            "answer": 1664,
-            "candidate": 25,
-            "answer_feedback": "This is the exact opposite of what you need to be saying."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 704,
-        "fields": {
-            "answer": 1668,
-            "candidate": 25,
-            "answer_feedback": "By effectively abandoning civil rights, you\u2019ve ceded a key portion of the electorate to Humphrey. If you thought this might help with your chances in the South, you\u2019re mistaken, too. Your pledge to eventually expand civil rights initiatives are a non-starter."
+            "answer_feedback": "A few hours later, you go out of your way and remark to reporters that you appreciate the support from the likes of Senator McCarthy, but that you don't need their help - Senator McCarthy is more cool the next time he's questioned on whether or not he's for you."
         }
     },
     {
@@ -13662,6 +14620,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 23,
             "answer_feedback": "You and Governor Reagan herald the end of the campaign with a monstrous rally in the heart of Los Angeles. In the far corners of the rally, student protestors are brutalized and scorned. They aren’t welcome here."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 759,
+        "fields": {
+            "answer": 3352,
+            "candidate": 23,
+            "answer_feedback": "Many would likely dismiss this as a foolish bid - many did, when you announced it. However, the press has lauded you greatly for not refusing to speak to every American anywhere."
+        }
     }
 ]
   campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/896851956973314069/1089028679436337252/Downloader.la-641e6aa6218b5.jpg';
@@ -13697,7 +14664,9 @@ function tunnel(new_q){
 // from LBJ, that leads to LBJ helicoptering into the convention and seizing it (real plan irl)
 function switcheroo3() {
     e.candidate_json[1].fields.first_name = "Lyndon"
-    e.candidate_json[1].fields.last_name = "Johnson"      
+    e.candidate_json[1].fields.last_name = "Johnson"
+    e.candidate_json[1].fields.color_hex = "#252360"
+	e.candidate_json[1].fields.secondary_color_hex = "#494891"      
     
 }
 
@@ -13720,6 +14689,7 @@ function switcheroo5() {
           document.getElementById("header").src = "https://downloader.la/temp/[Downloader.la]-6433827fd4bed.jpg"
           campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(3260);
           e.global_parameter_json[0].fields.question_count = 18
+          advisor_url = "https://cdn.discordapp.com/attachments/896483055575896074/1096980088660168734/Downloader.la-643b5842b8e99.jpg"
 
     }
     if(ans == 3298 || ans == 3297 || ans == 3299 ){
@@ -13773,14 +14743,76 @@ function switcheroo5() {
     if(ans == 3346 ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(3430);
     }
-    if(ans == 3228){
-        console.log("done");
-        switcheroo3();
-    }
     if(ans == 3232){
         console.log("done");
         switcheroo4();
     }
+    if(ans == 3231){
+     e.global_parameter_json[0].fields.question_count = 22
+    }
+    if(ans == 1720 || ans == 1721 || ans == 1722 ){
+        switcheroo5();
+    }        
+     if(ans == 1670){
+        console.log("done");
+        switcheroo3();
+        document.getElementById("header").src = "https://cst.brightspotcdn.com/dims4/default/bd81447/2147483647/strip/true/crop/1104x630+14+0/resize/1461x834!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FjpaPV-PfDR9tpXh202VmQ-ANk00%3D%2F0x0%3A1133x630%2F1133x630%2Ffilters%3Afocal%28566x315%3A567x316%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F16141275%2F68convention_03.jpg"	  
+        document.body.background = "https://cdn.discordapp.com/attachments/896483055575896074/1096925805558378578/Untitled.png"
+		$("#game_window")[0].style.borderColor = "#683231"
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#404268"
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#404268"
+        $(".container")[0].style.backgroundColor = "#404268"
+        $(".container")[0].style.backgroundColor = "#404268"
+        $("#game_window")[0].style.coloring_window = "#803720"
+    }
+    // this is the cyoa question
+    else if (ans == 1761 || ans == 1762 || ans == 1763 ) {
+		let liberalAnswers = liberalCount(e.player_answers)
+            if( liberalAnswers == 5 || liberalAnswers == 4 ) {
+                campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(270);                
+		}
+            else if( liberalAnswers == 3 || liberalAnswers == 2 ) {
+                campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(2700);
+        }
+            else if( liberalAnswers == 1 || liberalAnswers == 0) {
+                    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(2701);
+        }  
+	}
+    if(ans == 3350 || ans == 3351 || ans == 1720 || ans == 1721 || ans == 1722 ){
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(325);
+    }
+
 }
+    // this is from my good friend aero's 1972tno hall mod.
+	liberalCount = (array, call = a => a.fields.liberal) => {
+		array = array.filter(a=>a);
+		let answers = e.answers_json.map(f=>f.pk);
+		let wantedAnswers = 0;
+		for (i in array) {
+			let answer = e.answers_json[answers.indexOf(array[i])];
+			if (call(answer)) {
+				wantedAnswers++;
+			}
+			
+		}
+		return wantedAnswers;
+
+	}
+
+// NOTES FOR BROOKE shit 
+// "liberal": true, (put this for the liberal answers)
+// 		else if (ans == q23 answers || ans == q23 answers || ans == q23 answers || ans == q23 answers) {
+// 			let liberalAnswers = liberalCount(e.player_answers)
+// 			if( liberalAnswers >= 6) {
+// 				(i am stealing this code from aero. god bless)
+// 				this will add the final brooke answers
+// 				
+// 			}
+// 		}
+//
+//
+//
+//
+//
 
 
