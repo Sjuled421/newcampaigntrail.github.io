@@ -184,7 +184,7 @@ campaignTrail_temp.questions_json = [
         "pk": 270,
         "fields": {
             "priority": 2,
-            "description": "An aide rushes to you, relaying ominous news. George Wallace has just dropped out of the race, citing 'difficulties' in financing. That doesn't make any sense - it's too late to worry about that, though. President Johnson is the clear beneficiary of the move, so what now?",
+            "description": "An aide rushes to you, relaying ominous news. George Wallace has just dropped out of the race, citing reasons he 'cannot yet disclose'. Rumor is that the IRS was sicced on him - it's too late to worry about that, though, as President Johnson is the clear beneficiary of the move, so what now?",
             "likelihood": 1
         }
     },
@@ -621,7 +621,7 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 286,
             "liberal": true,
-            "description": "\u2026Y\u2019know, that\u2019s a good point. The\u2026Lies, really, coming from the Administration over Vietnam is tantamount to treason - I, I even got this a little, in my trip a while back. Feel as if I was brainwashed."
+            "description": "\u2026Y\u2019know, that\u2019s a good point. The\u2026lies, really, coming from the Administration over Vietnam is tantamount to treason - I, I even got this a little, in my trip a while back. Feel as if I was brainwashed."
         }
     },
     {
@@ -742,6 +742,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3231,
         "fields": {
             "question": 322,
+            "brookemode": true,
             "description": "... begins placing calls to key players and leaders on the floor - he hauls as many possible opponents to Brooke in front of him as he can, and spiels some bullshit how you're going to have Brooke nominated as a gesture to blacks in the general, explaining how you need a good segment of the conservative wing of the party to back it so that it seems legitimate, but that he'll - of course - not be the real pick. A fine gesture on the first ballot, before we move to Kirk on the second. He assures them that enough of your own men won't vote for Brooke. He won't get a majority."
         }
     },
@@ -1336,7 +1337,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3350,
         "fields": {
             "question": 2700,
-            "description": "uhoh. "
+            "description": "I have the fullest faith in Edward Brooke, and believe he will be a truly wonderful Vice-President. This is clearly a ploy, and nothing more. "
         }
     },
     {
@@ -1344,7 +1345,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3351,
         "fields": {
             "question": 2701,
-            "description": "uhoh "
+            "description": "I believe this move to be nothing more than a shrewd ploy to sew up Johnson's re-election. President Johnson has injected the political into what ought not to be such, to the nation's detriment."
         }
     },
     {
@@ -6864,7 +6865,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1721,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -111.035
+            "global_multiplier": -0.535
         }
     },
     {
@@ -6874,7 +6875,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1722,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -11.03
+            "global_multiplier": -0.603
         }
     },
     {
@@ -13758,6 +13759,182 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 24,
             "state_multiplier": 0.009
         }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9398,
+        "fields": {
+            "answer": 1722,
+            "state": 118,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9399,
+        "fields": {
+            "answer": 1722,
+            "state": 128,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9400,
+        "fields": {
+            "answer": 1722,
+            "state": 117,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9401,
+        "fields": {
+            "answer": 1722,
+            "state": 146,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9402,
+        "fields": {
+            "answer": 1722,
+            "state": 101,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": 0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9403,
+        "fields": {
+            "answer": 1722,
+            "state": 100,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9404,
+        "fields": {
+            "answer": 1722,
+            "state": 129,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9405,
+        "fields": {
+            "answer": 1722,
+            "state": 142,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9406,
+        "fields": {
+            "answer": 1722,
+            "state": 138,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9407,
+        "fields": {
+            "answer": 1722,
+            "state": 106,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9408,
+        "fields": {
+            "answer": 1722,
+            "state": 136,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9409,
+        "fields": {
+            "answer": 1722,
+            "state": 132,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.019
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9410,
+        "fields": {
+            "answer": 1722,
+            "state": 110,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9411,
+        "fields": {
+            "answer": 1722,
+            "state": 131,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9412,
+        "fields": {
+            "answer": 1722,
+            "state": 109,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.009
+        }
+    },   
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 9413,
+        "fields": {
+            "answer": 1722,
+            "state": 134,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "state_multiplier": -0.009
+        }
     }
 ]
 
@@ -14830,6 +15007,24 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 23,
             "answer_feedback": "Many would likely dismiss this as a foolish bid - many did, when you announced it. However, the press has lauded you greatly for not refusing to speak to every American anywhere."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 760,
+        "fields": {
+            "answer": 3350,
+            "candidate": 23,
+            "answer_feedback": "Buckle up - this could imperil your chances to secure the Presidency."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 761,
+        "fields": {
+            "answer": 3351,
+            "candidate": 23,
+            "answer_feedback": "Buckle up - this could imperil your chances to secure the Presidency."
+        }
     }
 ]
   campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/896851956973314069/1089028679436337252/Downloader.la-641e6aa6218b5.jpg';
@@ -15015,5 +15210,99 @@ function switcheroo5() {
 //
 //
 //
+construct = (a = 1) => {
+	e.page = e.page + a < e.pages.length ? e.page + a : 0
+	let html = e.header;
+	html += e.pages[e.page] + "<br>";
+	if (e.page > 0) {
+		html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+	}
+	if (e.page < e.pages.length - 1) {
+		html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+	}
 
+	if (e.image == true)
+		setTimeout(()=>{
+		candImg = $(".person_image")[0]
+		if (candImg) {
+			candImg.remove()
+			$("#final_results_description")[0].style = `
+			text-align:center;
+			width: 70%;
+			text-overflow: ellipsis;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			`
+		}
+		}, 10)
+	else if (e.image)
+	setTimeout(()=>{
+		candImg = $(".person_image")[0];
+		if (candImg)
+			candImg.src = e.image;
+		}, 10)
 
+	return html;
+	}
+
+	endingConstructor = (a = 1) => {
+	$("#final_results_description")[0].innerHTML = construct(a);
+	}
+
+	e.multiple_endings = true;
+
+	e.header = "<h1>Error-Handling Message (oops)</h1>";
+	e.pages = ["<p>This is an error handler</p>", "<p>I dun goof</p>", "<p>Contact me on Discord (DecstarG#4326) or Reddit (u/DecstarG) and we'll see if I can fix up your problem.</p>", "<p>Sorry!</p>"];
+	e.page = 0;
+	e.resetHeader = 0;
+    endingPicker = (out, totv, aa, quickstats) => {
+
+        // Skip resetting the header if the country's too fucked up.
+        if (e.favorFromThompson == 1) {
+            e.resetHeader = 1;
+        }
+        // Set the header to the ending one.
+        if (e.resetHeader == 0) {
+            e.resetHeader = 1;
+            document.getElementById("header").src = "https://i.imgur.com/Wb1zRHr.png"
+        
+            // Reset Header 
+            if (quickstats[0] >= 268) {
+                customquote = quotes[2]
+                corrr = `\n<h2>New Campaign Trail</h2><font id='wittyquote' size='4' color='59c7c2'><em>` + customquote + `</em></font>`
+                document.getElementById("wittyquote").color = "white"
+    
+                $("#game_window")[0].style.borderColor = "#59c7c2"
+                // maybe e08282 red, instead
+            }
+            else {
+                customquote = quotes[3]
+                corrr = `\n<h2>New Campaign Trail</h2><font id='wittyquote' size='4' color='59c7c2'><em>` + customquote + `</em></font>`
+                document.getElementById("wittyquote").color = "white"
+    
+                $("#game_window")[0].style.borderColor = "#59c7c2"
+            }
+        }        
+	// brooke endings
+	else if (e.brookemode == 1 && quickstats[0].electoral_votes >= 268 && quickstats[0].candidate == 23 ) {
+		e.header = "<h2>“Intemperance and intolerance serve no one, and hatred guarantees failure.”</h2>"
+		e.pages = ["<p>You’ve made it past the electoral gauntlet, against all odds. Many had written off your campaign following your selection of Brooke, but you’ve proven them wrong, somehow. Many will surely credit Johnson’s controversies for your victory, that the election was more a referendum on Johnson than your capacity to lead the nation, but they don’t matter.</p><p>With your victory, Brooke is set to be the first Black Vice-President, and hopefully just that. A President has already died this past decade - it’d be best if you didn’t.</p><p>Furthermore, your victory has reinvigorated Republican support among the youth, particularly in the campuses. A handful of Republicans running on a solid platform of immediate peace in Vietnam broke through districts with a heavy college-youth population once thought to be solidly Democratic. While they’re certainly out of lockstep with the rest of the party, perhaps their victory isn’t just a fluke, born out of the sheer unpopularity of Johnson and the contrast between you and Johnson’s respective Vietnam policies.</p>"]
+		e.image = "https://media.wnyc.org/i/1500/974/l/80/1/3065162.jpg";
+		return construct(0);
+	}
+	else if ((e.brookemode == 1 && quickstats[0].electoral_votes <= 269 && quickstats[0].candidate == 23 && quickstats[1].electoral_votes <= 269 && quickstats[1].candidate == 24 )) {
+		e.header = "<h2>“Election victories are a harvest. You plant the seed. For months or years, you water and tend them. In the election season, you reap the harvest.”</h2>"
+		e.pages = ["<p>The American people saw your campaign- the first time a communist had a real shot at winning the presidency.</p><p>They responded by electing their own NSDAP.</p><p>The left- no, the entire political sphere- are in shock. This was supposed to be impossible. Even if the average voter was that repulsed by real progress, the worst anyone expected was four years of Goldwater.</p><p>You should probably plan to leave the country. Head for London, Ryzov- Rome, if neither will take you. You can't stay and watch Yockey destroy the nation.</p>"]
+		e.image = "https://lareviewofbooks.org/wp-content/uploads/2017/05/MostromYockey.png";
+		return construct(0);
+	}
+	else if (e.brookemode == 1 && quickstats[0].electoral_votes >= 270 && quickstats[0].candidate == 24 ) {
+		e.header = "<h2>“Lyndon Johnson has lost his effectiveness as leader of this country, primarily because he has lost the confidence of its people.”</h2>"
+		e.pages = ["<p>you lost idiot</p>"]
+		e.image = "https://www.heraldnet.com/wp-content/uploads/2018/02/10764003_web1_M2-Jackson-EDH-180225.jpg";
+		return construct(0);
+	}
+	
+		return construct(0);
+	}
