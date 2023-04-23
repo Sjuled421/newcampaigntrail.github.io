@@ -15164,10 +15164,10 @@ function switcheroo5() {
     // this is the cyoa question
     else if (ans == 1761 || ans == 1762 || ans == 1763 ) {
 		let liberalAnswers = liberalCount(e.player_answers)
-            if( liberalAnswers == 5 || liberalAnswers == 4 ) {
+            if( liberalAnswers == 8 || liberalAnswers == 7 || liberalAnswers == 5 || liberalAnswers == 6 ) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(270);                
 		}
-            else if( liberalAnswers == 3 || liberalAnswers == 2 ) {
+            else if( liberalAnswers == 4 || liberalAnswers == 3 || liberalAnswers == 2 ) {
                 campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(2700);
         }
             else if( liberalAnswers == 1 || liberalAnswers == 0) {
