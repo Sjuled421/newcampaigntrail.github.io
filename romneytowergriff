@@ -742,16 +742,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3231,
         "fields": {
             "question": 322,
-            "brookemode": true,
             "description": "... begins placing calls to key players and leaders on the floor - he hauls as many possible opponents to Brooke in front of him as he can, and spiels some bullshit how you're going to have Brooke nominated as a gesture to blacks in the general, explaining how you need a good segment of the conservative wing of the party to back it so that it seems legitimate, but that he'll - of course - not be the real pick. A fine gesture on the first ballot, before we move to Kirk on the second. He assures them that enough of your own men won't vote for Brooke. He won't get a majority."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3232,
-        "fields": {
-            "question": 322,
-            "description": "... comes to the realization that with enough muscle behind a bid to strongarm Brooke onto the ticket, it can happen. He calls for Rockefeller, Javits, Kuchel - any relevant Republican who could possibly back the bid - to begin meeting delegates, to cajole them into supporting the bid. He does this with a grim determination, knowing the odds of it succeeding are slim to none, but works feverishly nonetheless. You can see his lack of faith in his eyes."
         }
     },
     {
@@ -6365,7 +6356,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3260,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.06
         }
     },
     {
@@ -6375,7 +6366,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3262,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.046
+            "global_multiplier": -0.053
         }
     },
     {
@@ -6385,7 +6376,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3259,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.06
         }
     },
     {
@@ -6425,7 +6416,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1779,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.036
+            "global_multiplier": -0.046
         }
     },
     {
@@ -6475,7 +6466,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1663,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.043
+            "global_multiplier": -0.053
         }
     },
     {
@@ -6485,7 +6476,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1664,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.041
+            "global_multiplier": -0.051
         }
     },
     {
@@ -6495,7 +6486,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1662,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.047
+            "global_multiplier": -0.057
         }
     },
     {
@@ -6615,7 +6606,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1781,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.026
+            "global_multiplier": -0.036
         }
     },
     {
@@ -6765,7 +6756,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1780,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.032
+            "global_multiplier": -0.042
         }
     },
     {
@@ -6855,7 +6846,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1720,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.573
+            "global_multiplier": -0.503
         }
     },
     {
@@ -6865,7 +6856,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1721,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.535
+            "global_multiplier": -0.505
         }
     },
     {
@@ -6875,7 +6866,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1722,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": -0.603
+            "global_multiplier": -0.503
         }
     },
     {
@@ -7425,7 +7416,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3261,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.06
         }
     },
     {
@@ -7545,7 +7536,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3351,
             "candidate": 23,
             "affected_candidate": 24,
-            "global_multiplier": 0.111
+            "global_multiplier": 0.081
         }
     },
     {
@@ -15025,6 +15016,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 23,
             "answer_feedback": "Buckle up - this could imperil your chances to secure the Presidency."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 762,
+        "fields": {
+            "answer": 3231,
+            "candidate": 23,
+            "answer_feedback": "They buy it - discipline on the floor is tight, and Brooke is nominated, seconded, and put to a vote. Brooke clinches a majority - enough conservative delegates bought Hall's bullshit, while all of your delegates stayed in line. The convention breaks into chaos - Brooke is on the ticket, but at what cost?"
+        }
     }
 ]
   campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/896851956973314069/1089028679436337252/Downloader.la-641e6aa6218b5.jpg';
@@ -15043,7 +15043,8 @@ campaignTrail_temp.answer_feedback_json = [
   
   
   campaignTrail_temp.cyoa = true
-
+  e=campaignTrail_temp
+  e.brookemode = 1
   function switcheroo() {
     campaignTrail_temp.running_mate_image_url = 'https://cdn.discordapp.com/attachments/896483055575896074/1093653968804130866/Downloader.la-642f3cb1147d3.jpg';
     campaignTrail_temp.running_mate_last_name = 'Griffin';
@@ -15148,7 +15149,16 @@ function switcheroo5() {
     }
     if(ans == 1720 || ans == 1721 || ans == 1722 ){
         switcheroo5();
-    }        
+    }
+    if(ans == 3231){
+    e.brookemode = 1
+    }
+    if(ans == 1667 ){
+    e.mccarthy = 1
+    }
+    if(ans == 1666 || ans == 1668){
+    e.truetoform  = 1
+    }                      
      if(ans == 1670){
         console.log("done");
         switcheroo3();
@@ -15285,22 +15295,22 @@ construct = (a = 1) => {
             }
         }        
 	// brooke endings
-	else if (e.brookemode == 1 && quickstats[0].electoral_votes >= 268 && quickstats[0].candidate == 23 ) {
+	if (e.brookemode == 1 && e.wallacewithdrew == 1 && e.truetoform == 1 && quickstats[0] >= 268  ) {
 		e.header = "<h2>“Intemperance and intolerance serve no one, and hatred guarantees failure.”</h2>"
-		e.pages = ["<p>You’ve made it past the electoral gauntlet, against all odds. Many had written off your campaign following your selection of Brooke, but you’ve proven them wrong, somehow. Many will surely credit Johnson’s controversies for your victory, that the election was more a referendum on Johnson than your capacity to lead the nation, but they don’t matter.</p><p>With your victory, Brooke is set to be the first Black Vice-President, and hopefully just that. A President has already died this past decade - it’d be best if you didn’t.</p><p>Furthermore, your victory has reinvigorated Republican support among the youth, particularly in the campuses. A handful of Republicans running on a solid platform of immediate peace in Vietnam broke through districts with a heavy college-youth population once thought to be solidly Democratic. While they’re certainly out of lockstep with the rest of the party, perhaps their victory isn’t just a fluke, born out of the sheer unpopularity of Johnson and the contrast between you and Johnson’s respective Vietnam policies.</p>"]
-		e.image = "https://media.wnyc.org/i/1500/974/l/80/1/3065162.jpg";
+		e.pages = ["<<p>You’ve made it past the electoral gauntlet, against all odds. Many had written off your campaign following your selection of Brooke, but you’ve proven them wrong, somehow. Many will surely credit Johnson’s controversies for your victory, that the election was more a referendum on Johnson than your capacity to lead the nation, but they don’t matter.</p><p>The last few weeks of the campaign were a scramble, a vain attempt to measure just how much Wallace’s sudden withdrawal would shake the race beyond recognition. Thankfully, you came out on top of the whole event, and are horrified at just why Wallace had been forced out. It appears that Johnson had forced Wallace out by sicking the IRS on him – a cruel misuse of justice. An investigation into the matter has already begun, and you are eager to put an end to it.</p><p>WIth your victory, you’ve revitalized the Republican coalition that brought Eisenhower to office and that nearly delivered Nixon a victory in 1960. The Republican Establishment is giddy with delight – while some may have wished for a more experienced pol like Nixon, someone who was a known quantity, they’re quite satisfied with you. You’re poised to run an Administration not too dissimilar from Eisenhower’s, for good or for ill.</p>"]
+		e.image = "https://media.npr.org/assets/img/2011/04/22/spark_romney_early1_wide-183663fa909857aef344ddfa8b52afb37d2f7d12-s1100-c50.jpg";
 		return construct(0);
 	}
-	else if ((e.brookemode == 1 && quickstats[0].electoral_votes <= 269 && quickstats[0].candidate == 23 && quickstats[1].electoral_votes <= 269 && quickstats[1].candidate == 24 )) {
+	else if (e.brookemode == 1 && aa[0].electoral_votes < 268) {
 		e.header = "<h2>“Election victories are a harvest. You plant the seed. For months or years, you water and tend them. In the election season, you reap the harvest.”</h2>"
 		e.pages = ["<p>The election has been deadlocked. Your victory has been swept away by the cruel hand of fate, and you’re more than likely to lose in the upcoming contingent election. Even with Republicans making gains in the House, not enough State delegations were seized from the wretched grasp of the Democrats.</p><p>Even then, Johnson is bound to have a rocky path to re-election. If enough Peace Democrats refuse to back Johnson and bolt to you, you could very well win, but with your integrity compromised. They’re bound to demand their own pound of flesh, and force your Administration to take a far more leftward stance on economic policy.</p>"]
-		e.image = "https://lareviewofbooks.org/wp-content/uploads/2017/05/MostromYockey.png";
+		e.image = "https://www.timeforkids.com/wp-content/uploads/2018/07/LBJ_hero.jpg?w=640";
 		return construct(0);
 	}
-	else if (e.brookemode == 1 && quickstats[0].electoral_votes >= 270 && quickstats[0].candidate == 24 ) {
+	else if (e.brookemode == 1 && quickstats[0] <= 268 ) {
 		e.header = "<h2>“Lyndon Johnson has lost his effectiveness as leader of this country, primarily because he has lost the confidence of its people.”</h2>"
 		e.pages = ["<p>you lost idiot</p>"]
-		e.image = "https://www.heraldnet.com/wp-content/uploads/2018/02/10764003_web1_M2-Jackson-EDH-180225.jpg";
+		e.image = "https://www.timeforkids.com/wp-content/uploads/2018/07/LBJ_hero.jpg?w=640";
 		return construct(0);
 	}
 	
