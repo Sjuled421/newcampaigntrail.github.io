@@ -5435,7 +5435,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 25,
             "state": 138,
-            "state_multiplier": 1.0604
+            "state_multiplier": .8604
         }
     },
     {
@@ -5516,7 +5516,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 25,
             "state": 129,
-            "state_multiplier": 1.1884
+            "state_multiplier": 0.9884
         }
     },
     {
@@ -5777,7 +5777,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 25,
             "state": 100,
-            "state_multiplier": 0.6933
+            "state_multiplier": 0.6333
         }
     },
     {
@@ -7406,7 +7406,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1670,
             "candidate": 23,
             "affected_candidate": 24,
-            "global_multiplier": -0.283
+            "global_multiplier": -0.253
         }
     },
     {
@@ -11878,7 +11878,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 110,
             "candidate": 23,
             "affected_candidate": 25,
-            "state_multiplier": 0.06
+            "state_multiplier": 0.03
         }
     },
     {
@@ -15044,7 +15044,7 @@ campaignTrail_temp.answer_feedback_json = [
   
   campaignTrail_temp.cyoa = true
   e=campaignTrail_temp
-  e.brookemode = 1
+  e.brookemode = 0
   function switcheroo() {
     campaignTrail_temp.running_mate_image_url = 'https://cdn.discordapp.com/attachments/896483055575896074/1093653968804130866/Downloader.la-642f3cb1147d3.jpg';
     campaignTrail_temp.running_mate_last_name = 'Griffin';
@@ -15086,7 +15086,8 @@ function switcheroo5() {
           document.getElementById("header").src = "https://downloader.la/temp/[Downloader.la]-6433827fd4bed.jpg"
           campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(3260);
           e.global_parameter_json[0].fields.question_count = 18
-          advisor_url = "https://cdn.discordapp.com/attachments/896483055575896074/1096980088660168734/Downloader.la-643b5842b8e99.jpg"
+          e.towermode = 1
+          e.brookemode = 0
 
     }
     if(ans == 3298 || ans == 3297 || ans == 3299 ){
@@ -15267,52 +15268,49 @@ construct = (a = 1) => {
 	e.page = 0;
 	e.resetHeader = 0;
     endingPicker = (out, totv, aa, quickstats) => {
-
-        // Skip resetting the header if the country's too fucked up.
-        if (e.favorFromThompson == 1) {
-            e.resetHeader = 1;
-        }
-        // Set the header to the ending one.
-        if (e.resetHeader == 0) {
-            e.resetHeader = 1;
-            document.getElementById("header").src = "https://i.imgur.com/Wb1zRHr.png"
-        
-            // Reset Header 
-            if (quickstats[0] >= 268) {
-                customquote = quotes[2]
-                corrr = `\n<h2>New Campaign Trail</h2><font id='wittyquote' size='4' color='59c7c2'><em>` + customquote + `</em></font>`
-                document.getElementById("wittyquote").color = "white"
-    
-                $("#game_window")[0].style.borderColor = "#59c7c2"
-                // maybe e08282 red, instead
-            }
-            else {
-                customquote = quotes[3]
-                corrr = `\n<h2>New Campaign Trail</h2><font id='wittyquote' size='4' color='59c7c2'><em>` + customquote + `</em></font>`
-                document.getElementById("wittyquote").color = "white"
-    
-                $("#game_window")[0].style.borderColor = "#59c7c2"
-            }
-        }        
+       
 	// brooke endings
-	if (e.brookemode == 1 && e.wallacewithdrew == 1 && e.truetoform == 1 && quickstats[0] >= 268  ) {
+	if (e.brookemode == 1 && quickstats[0] >= 270  ) {
 		e.header = "<h2>“Intemperance and intolerance serve no one, and hatred guarantees failure.”</h2>"
-		e.pages = ["<<p>You’ve made it past the electoral gauntlet, against all odds. Many had written off your campaign following your selection of Brooke, but you’ve proven them wrong, somehow. Many will surely credit Johnson’s controversies for your victory, that the election was more a referendum on Johnson than your capacity to lead the nation, but they don’t matter.</p><p>The last few weeks of the campaign were a scramble, a vain attempt to measure just how much Wallace’s sudden withdrawal would shake the race beyond recognition. Thankfully, you came out on top of the whole event, and are horrified at just why Wallace had been forced out. It appears that Johnson had forced Wallace out by sicking the IRS on him – a cruel misuse of justice. An investigation into the matter has already begun, and you are eager to put an end to it.</p><p>WIth your victory, you’ve revitalized the Republican coalition that brought Eisenhower to office and that nearly delivered Nixon a victory in 1960. The Republican Establishment is giddy with delight – while some may have wished for a more experienced pol like Nixon, someone who was a known quantity, they’re quite satisfied with you. You’re poised to run an Administration not too dissimilar from Eisenhower’s, for good or for ill.</p>"]
+		e.pages = ["<<p>After such a tumultous election, you've come out on top - it seemed as if America was going to tear itself apart if Johnson was able to retain the White House, and with your victory, such a possibility as been solidly nullified.</p><p>President Johnson has issued a mum concession speech, while Black Americans around the country rejoice - Edward Brooke shall soon ascend to the office of the Vice Presidency. You've also broken barriers, too. At the time of your birth, the idea of a Mormon President would've been unthinkable - how the times have changed.</p>Let's hope you can prove yourself an able steward of the nation, in these dire times. "]
 		e.image = "https://media.npr.org/assets/img/2011/04/22/spark_romney_early1_wide-183663fa909857aef344ddfa8b52afb37d2f7d12-s1100-c50.jpg";
 		return construct(0);
 	}
-	else if (e.brookemode == 1 && aa[0].electoral_votes < 268) {
+	else if (e.brookemode == 1 && aa[0].electoral_votes < 270) {
 		e.header = "<h2>“Election victories are a harvest. You plant the seed. For months or years, you water and tend them. In the election season, you reap the harvest.”</h2>"
-		e.pages = ["<p>The election has been deadlocked. Your victory has been swept away by the cruel hand of fate, and you’re more than likely to lose in the upcoming contingent election. Even with Republicans making gains in the House, not enough State delegations were seized from the wretched grasp of the Democrats.</p><p>Even then, Johnson is bound to have a rocky path to re-election. If enough Peace Democrats refuse to back Johnson and bolt to you, you could very well win, but with your integrity compromised. They’re bound to demand their own pound of flesh, and force your Administration to take a far more leftward stance on economic policy.</p>"]
+		e.pages = ["<p>The election has been deadlocked. Your victory has been swept away by the cruel hand of fate, and you’re more than likely to lose in the upcoming contingent election. Even with Republicans making gains in the House, not enough state delegations were seized from the wretched grasp of the Democrats.</p><p>Even then, Johnson is bound to have a rocky path to re-election. If enough Peace Democrats refuse to back Johnson and bolt to you, you could very well win, but with your integrity compromised. They’re bound to demand their own pound of flesh, and force your Administration to take a far more leftward stance on economic policy.</p>"]
 		e.image = "https://www.timeforkids.com/wp-content/uploads/2018/07/LBJ_hero.jpg?w=640";
 		return construct(0);
 	}
 	else if (e.brookemode == 1 && quickstats[0] <= 268 ) {
 		e.header = "<h2>“Lyndon Johnson has lost his effectiveness as leader of this country, primarily because he has lost the confidence of its people.”</h2>"
-		e.pages = ["<p>you lost idiot</p>"]
+		e.pages = ["<p>The worst has come to pass - you've lost, George. Lyndon Johnson, by far one of the most villified men in American politics, second only to George Wallace, has been re-elected to a second term. Even with his legitimacy shot, his Congressional coalition in tatters, and a Democratic Party prime to revolt, you just couldn't overcome.</p><p>Indeed, many of the professional pundit class have pinned your defeat squarely on Ed Brooke - insinuating that America just isn't ready. Perhaps it isn't, but you don't care.</p><p>You chose the best man for the job, and you're proud of it. So long, George.</p>"]
 		e.image = "https://www.timeforkids.com/wp-content/uploads/2018/07/LBJ_hero.jpg?w=640";
+		return construct(0);
+	}
+
+    else if (e.towermode == 1 && quickstats[0] >= 270  ) {
+		e.header = "<h2>“It seems as if our party shall not be left to the wayside, for better or for worse. Senator Tower has my full support, and I pray for him and his family.”</h2>"
+		e.pages = ["<p>After such a tumultous election, you've come out on top - it seemed as if America was going to tear itself apart if Johnson was able to retain the White House, and with your victory, such a possibility as been solidly nullified.</p><p>President Johnson has issued a mum concession speech, while Black Americans around the country rejoice - Edward Brooke shall soon ascend to the office of the Vice Presidency. You've also broken barriers, too. At the time of your birth, the idea of a Mormon President would've been unthinkable - how the times have changed.</p>Let's hope you can prove yourself an able steward of the nation, in these dire times. "]
+		e.image = "https://upload.wikimedia.org/wikipedia/commons/6/66/U.S._Senator_John_Tower_of_Texas.jpg";
+		return construct(0);
+	}
+	else if (e.towermode == 1 && aa[0].electoral_votes < 270) {
+		e.header = "<h2>“It seems as if, even given the best of circumstances, we have failed to win the Presidency, to woo the nation - and will continue to do so.”</h2>"
+		e.pages = ["<p>You hear George Romney utter those words on the television set in front of you, and your defeat begins to sink in.</p>Even after such a spirited campaign, keeping Humphrey in a dead heat, you weren't able to pull it off. The House is poised to elevate him to the Presidency.</p><p>Furthermore, it seems as if conservatives of your variety will likely be denied the chance to fumble the ball again, too, for a long time. The Republican National Committee have forced your preferred Chairman to resign, and a purge of the macinery is already under way. Aspiring 'Modern' Republicans - so valued because of their supposed 'moderate' appeal - are already positioning themselves to secure the nomination in 1972. Rumor abounds that Percy is the likely nominee, that Romney'll take another swipe at it, as will Nixon and Rockefeller.</p><p>You don't care, though. You're ready to return to the Senate, to do what you do best.</p>"]
+		e.image = "https://www.usnews.com/dims4/USNEWS/86f89e8/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fdbimages%2Fmaster%2F37157%2FFE_DA_130116lbj.jpg";
+		return construct(0);
+	}
+	else if (e.towermode == 1 && quickstats[0] <= 268 ) {
+		e.header = "<h2>“How much more of this can our Grand Old Party take? Three losers, thrice in a row? We are becoming the party of the minority. Something has to give.”</h2>"
+		e.pages = ["<p>You hear George Romney utter those words on the television set in front of you, and your defeat begins to sink in.</p>Even after such a spirited campaign, you weren't able to pull it off. He's won an outright victory, and Democrats have maintained a steady lead in Congress.</p><p>Furthermore, it seems as if conservatives of your variety will likely be denied the chance to fumble the ball again, too, for a long time. The Republican National Committee have forced your preferred Chairman to resign, and a purge of the macinery is already under way. Aspiring 'Modern' Republicans - so valued because of their supposed 'moderate' appeal - are already positioning themselves to secure the nomination in 1972. Rumor abounds that Percy is the likely nominee, that Romney'll take another swipe at it, as will Nixon and Rockefeller.</p><p>You don't care, though. You're ready to return to the Senate, to do what you do best.</p>"]
+		e.image = "https://cdn.discordapp.com/attachments/896483055575896074/1102406225108422736/Hubert_Humphrey_1965.jpg";
 		return construct(0);
 	}
 	
 		return construct(0);
+	}
+
+    enableBrooke = () => {
+		e.brookemode = 1 // for endings
 	}
