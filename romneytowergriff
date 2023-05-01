@@ -15281,7 +15281,7 @@ construct = (a = 1) => {
 	// brooke endings
 	if (e.brookemode == 1 && quickstats[0] >= 270  ) {
 		e.header = "<h2>“Intemperance and intolerance serve no one, and hatred guarantees failure.”</h2>"
-		e.pages = ["<<p>After such a tumultous election, you've come out on top - it seemed as if America was going to tear itself apart if Johnson was able to retain the White House, and with your victory, such a possibility as been solidly nullified.</p><p>President Johnson has issued a mum concession speech, while Black Americans around the country rejoice - Edward Brooke shall soon ascend to the office of the Vice Presidency. You've also broken barriers, too. At the time of your birth, the idea of a Mormon President would've been unthinkable - how the times have changed.</p>Let's hope you can prove yourself an able steward of the nation, in these dire times. "]
+		e.pages = ["<p>After such a tumultous election, you've come out on top - it seemed as if America was going to tear itself apart if Johnson was able to retain the White House, and with your victory, such a possibility as been solidly nullified.</p><p>President Johnson has issued a mum concession speech, while Black Americans around the country rejoice - Edward Brooke shall soon ascend to the office of the Vice Presidency. You've also broken barriers, too. At the time of your birth, the idea of a Mormon President would've been unthinkable - how the times have changed.</p>Let's hope you can prove yourself an able steward of the nation, in these dire times. "]
 		e.image = "https://media.npr.org/assets/img/2011/04/22/spark_romney_early1_wide-183663fa909857aef344ddfa8b52afb37d2f7d12-s1100-c50.jpg";
 		return construct(0);
 	}
