@@ -523,7 +523,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1745,
         "fields": {
             "question": 277,
-            "description": "The Viet-Nam War is where Humphrey is really struggling. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
+            "description": "The Viet-Nam War is where Johnson is really struggling. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
         }
     },
     {
@@ -14105,7 +14105,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1745,
             "candidate": 23,
-            "answer_feedback": "If you keep reminding the American people about Viet-Nam, you\u2019re bound to keep jaded Democrats and Independents out of the Humphrey camp. Brooke's long been against Vietnam - hell, he campaigned against it in '66."
+            "answer_feedback": "If you keep reminding the American people about Viet-Nam, you\u2019re bound to keep jaded Democrats and Independents out of the Johnson camp."
         }
     },
     {
