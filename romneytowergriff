@@ -523,7 +523,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1745,
         "fields": {
             "question": 277,
-            "description": "The Viet-Nam War is where Johnson is really struggling. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
+            "description": "The Viet-Nam War is where Humphrey is really struggling. Let\u2019s highlight our support for a fair peace, fair elections, and an ultimate withdrawal from the region."
         }
     },
     {
@@ -14348,7 +14348,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1662,
             "candidate": 23,
-            "answer_feedback": "This is true - in your case, at least - but this doesn't actually do anything. These are just excuses. The next day, Governor Reagan publicly muses about opposing your candidates, on the same grounds you did in '64 against Goldwater."
+            "answer_feedback": "This is true - in your case, at least - but this doesn't actually do anything. These are just excuses. The next day, Governor Reagan publicly muses about opposing your candidacy, on the same grounds you did in '64 against Goldwater."
         }
     },
     {
@@ -15024,6 +15024,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3231,
             "candidate": 23,
             "answer_feedback": "They buy it - discipline on the floor is tight, and Brooke is nominated, seconded, and put to a vote. Brooke clinches a majority - enough conservative delegates bought Hall's bullshit, while all of your delegates stayed in line. The convention breaks into chaos - Brooke is on the ticket, but at what cost?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 763,
+        "fields": {
+            "answer": 3253,
+            "candidate": 23,
+            "answer_feedback": "Hall looks at you a little... curiously, but still goes about doing all the necessary moves to follow your word."
         }
     }
 ]
