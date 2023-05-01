@@ -15300,7 +15300,7 @@ construct = (a = 1) => {
 
     else if (e.towermode == 1 && quickstats[0] >= 270  ) {
 		e.header = "<h2>“It seems as if our party shall not be left to the wayside, for better or for worse. Senator Tower has my full support, and I pray for him and his family.”</h2>"
-		e.pages = ["<p>After such a tumultous election, you've come out on top - it seemed as if America was going to tear itself apart if Johnson was able to retain the White House, and with your victory, such a possibility as been solidly nullified.</p><p>President Johnson has issued a mum concession speech, while Black Americans around the country rejoice - Edward Brooke shall soon ascend to the office of the Vice Presidency. You've also broken barriers, too. At the time of your birth, the idea of a Mormon President would've been unthinkable - how the times have changed.</p>Let's hope you can prove yourself an able steward of the nation, in these dire times. "]
+		e.pages = ["<p>You hear George Romney utter those words, and feel a sense of strength fill you.</p>You've won, you've bested Humphrey and all that the Democratic Establishment could throw at you, and you've - quite frankly - massively realigned American politics with your victory. A Southern Republican, once unthinkable, is now a reality. The Republican Party is now yours to mold, in your conservative vision, a vision for a better America.</p>Let's hope you prove able to secure an able legislative coalition to enact all your desires, or else you'll likely be out of a job in four years - good luck, John."]
 		e.image = "https://upload.wikimedia.org/wikipedia/commons/6/66/U.S._Senator_John_Tower_of_Texas.jpg";
 		return construct(0);
 	}
