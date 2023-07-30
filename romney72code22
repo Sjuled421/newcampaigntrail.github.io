@@ -7761,7 +7761,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9389,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.12
+            "global_multiplier": -0.07
         }
     },
     {
@@ -12608,6 +12608,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
+
+
 
 
 
