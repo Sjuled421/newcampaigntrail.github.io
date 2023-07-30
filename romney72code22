@@ -208,15 +208,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 9106,
-        "fields": {
-            "priority": 0,
-            "description": "[September 1972] The worst has come to pass - North Vietnamese tanks have rumbled into Saigon, and the South Vietnamese government has dissolved. The mess that was the evacuation aside, polling has swung decisively against you. Many feel your defeat has been sealed.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 9107,
         "fields": {
             "priority": 0,
@@ -338,6 +329,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "[October 1972] It couldn’t get any worse than it already is - per a recent report, inflation is still increasing at breakneck speed, the GNP is still declining, and many preach of a major recession. ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 9106,
+        "fields": {
+            "priority": 0,
+            "description": "[September 1972] The worst has come to pass - North Vietnamese tanks have rumbled into Saigon, and the South Vietnamese government has dissolved. The mess that was the evacuation aside, polling has swung decisively against you. Many feel your defeat has been sealed.",
             "likelihood": 1
         }
     }
@@ -12822,10 +12822,10 @@ function switcheroo1() {
     if((ans == 9300 || ans == 9301 || ans == 9302 || ans == 9303 || ans == 9304 || ans == 9327 || ans == 9348 ) && priceLevel == 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(270);
     }
-    if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel > 2){
+    if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel > 3){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9105);
     }
-    if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel <= 2){
+    if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel <= 3){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9106);
     }
     if((ans == 9467 ) && economyLevel > 3){
