@@ -7531,7 +7531,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9259,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.07
         }
     },
     {
@@ -7541,7 +7541,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9260,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.08
         }
     },
     {
@@ -7571,7 +7571,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9274,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.045
         }
     },
     {
@@ -7581,7 +7581,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9278,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.035
         }
     },
     {
@@ -7971,7 +7971,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9540,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.04
         }
     }
 ]
@@ -12640,7 +12640,9 @@ campaignTrail_temp.jet_data = [{
 
 
 
-campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 27, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
+
+
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 28, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
 
 
 
@@ -12669,7 +12671,11 @@ function tunnel(new_q){
     e = campaignTrail_temp;
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 }  
-  
+function switcheroo1() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(25)
+    e.candidate_json[id].fields.first_name = "John"
+    e.candidate_json[id].fields.last_name = "Singlaub"   
+}  
   cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if(ans == 9295){
@@ -12694,6 +12700,9 @@ function tunnel(new_q){
     }    
     if(ans == 3227  ){
         vietnamLevel++;
+    }
+    if(ans == 9389  ){
+        switcheroo1(); 
     }
     if(ans == 3228  ){
         vietnamLevel += 2;
