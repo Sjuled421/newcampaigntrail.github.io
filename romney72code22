@@ -9409,22 +9409,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 9499,
-        "fields": {
-            "answer": 9476,
-            "issue": 14,
-            "issue_score": 0.3,
-            "issue_importance": 12
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 9500,
         "fields": {
             "answer": 9474,
             "issue": 14,
             "issue_score": -0.1,
-            "issue_importance": 13
+            "issue_importance": 5
         }
     }
 ]
@@ -12608,6 +12598,7 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
+
 
 
 
