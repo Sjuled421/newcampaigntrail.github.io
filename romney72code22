@@ -1207,6 +1207,22 @@ campaignTrail_temp.answers_json = [
             "question": 323,
             "description": "I want to talk to the South Koreans, the Australians - our allies in the region. They haven't ended their involvement yet - so why don't they up it... a little? To cope, of course."
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 9546,
+        "fields": {
+            "question": 260,
+            "description": "The Secret Service - what are they doing? I'm sorry, what are they doing - I don't - they were supposed to fix their..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 9549,
+        "fields": {
+            "question": 260,
+            "description": "This Bremer guy - who would want to kill Reagan? Who would even think of - it'd have to be some leftist, some crazed... I want that looked into. Now."
+        }
     }
 ]
 
@@ -7973,6 +7989,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 23,
             "global_multiplier": -0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9548,
+        "fields": {
+            "answer": 9546,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9551,
+        "fields": {
+            "answer": 9549,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.07
+        }
     }
 ]
 
@@ -12109,7 +12145,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9242,
             "candidate": 23,
-            "answer_feedback": "Today, we stand here in memoriam for a patriot, a friend, and a man who was willing to stand up for what he believed in. The nation lost a great ma..."
+            "answer_feedback": "Today, we stand here in memoriam for a patriot, a friend, and a man who was willing to stand up for what he believed in. The nation lost a great man, and.."
         }
     },
     {
@@ -12588,6 +12624,24 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 23,
             "answer_feedback": "As you climb onto the rampart to Air Force One, you feel the wind at your back. Quite literally, too. You hope this is what will push you over - but you know it won't."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9547,
+        "fields": {
+            "answer": 9546,
+            "candidate": 23,
+            "answer_feedback": "Today, we stand here in memoriam for a patriot, a friend, and a man who was willing to stand up for what he believed in. The nation lost a great man, and.."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9550,
+        "fields": {
+            "answer": 9549,
+            "candidate": 23,
+            "answer_feedback": "Today, we stand here in memoriam for a patriot, a friend, and a man who was willing to stand up for what he believed in. The nation lost a great man, and.."
+        }
     }
 ]
 
@@ -12598,6 +12652,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
+
+
 
 
 
@@ -12700,7 +12756,7 @@ function switcheroo1() {
         switcheroo1(); 
     }
     if(ans == 3228  ){
-        vietnamLevel += 2;
+        vietnamLevel += 3;
     }
     if(ans == 3230  ){
         vietnamLevel -= 2;
