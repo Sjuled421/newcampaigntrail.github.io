@@ -7507,7 +7507,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9245,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.01
         }
     },
     {
@@ -7517,7 +7517,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9246,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.017
+            "global_multiplier": 0.015
         }
     },
     {
@@ -7587,7 +7587,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9274,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.045
+            "global_multiplier": -0.055
         }
     },
     {
@@ -7597,7 +7597,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9278,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.035
+            "global_multiplier": -0.045
         }
     },
     {
@@ -7762,22 +7762,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 9407,
-        "fields": {
-            "answer": 9389,
-            "candidate": 23,
-            "affected_candidate": 25,
-            "global_multiplier": 0.12
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 9458,
         "fields": {
             "answer": 9389,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.065
         }
     },
     {
@@ -7787,7 +7777,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9464,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.16
+            "global_multiplier": -0.11
         }
     },
     {
@@ -7797,7 +7787,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9464,
             "candidate": 23,
             "affected_candidate": 25,
-            "global_multiplier": 0.09
+            "global_multiplier": 0.16
         }
     },
     {
@@ -7917,7 +7907,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9501,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.13
         }
     },
     {
@@ -7987,7 +7977,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9540,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.05
         }
     },
     {
@@ -8008,6 +7998,46 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9556,
+        "fields": {
+            "answer": 9294,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9557,
+        "fields": {
+            "answer": 9394,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9558,
+        "fields": {
+            "answer": 9393,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 9559,
+        "fields": {
+            "answer": 9392,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": 0.01
         }
     }
 ]
@@ -8830,7 +8860,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 9245,
             "issue": 13,
             "issue_score": 0.5,
-            "issue_importance": 8
+            "issue_importance": 6
         }
     },
     {
@@ -8909,8 +8939,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 9256,
             "issue": 14,
-            "issue_score": -0.05,
-            "issue_importance": 11
+            "issue_score": -0.5,
+            "issue_importance": 8
         }
     },
     {
@@ -8920,7 +8950,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 9285,
             "issue": 14,
             "issue_score": 0.2,
-            "issue_importance": 8
+            "issue_importance": 5
         }
     },
     {
@@ -8929,8 +8959,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 9289,
             "issue": 14,
-            "issue_score": 0.4,
-            "issue_importance": 10
+            "issue_score": 0.1,
+            "issue_importance": 5
         }
     },
     {
@@ -9299,7 +9329,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 9364,
             "issue": 14,
-            "issue_score": 0.5,
+            "issue_score": 0.3,
             "issue_importance": 12
         }
     },
@@ -9419,7 +9449,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 9394,
             "issue": 14,
-            "issue_score": 0.4,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -9429,7 +9459,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 9403,
             "issue": 11,
-            "issue_score": 0.7,
+            "issue_score": 0.5,
             "issue_importance": 10
         }
     },
@@ -12504,7 +12534,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 9472,
         "fields": {
             "answer": 9467,
-            "candidate": 25,
+            "candidate": 23,
             "answer_feedback": "You may be refusing to hit Muskie on that yourself, but partisans - and newspapers across the country - still go about it."
         }
     },
@@ -12642,6 +12672,42 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 23,
             "answer_feedback": "Today, we stand here in memoriam for a patriot, a friend, and a man who was willing to stand up for what he believed in. The nation lost a great man, and.."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9552,
+        "fields": {
+            "answer": 9245,
+            "candidate": 23,
+            "answer_feedback": "Edmund Muskie, as he portrays himself, is certainly not the Edmund Muskie he was 4 years ago - by hitting on that, you score some points."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9553,
+        "fields": {
+            "answer": 9246,
+            "candidate": 23,
+            "answer_feedback": "On moral issues, you feel you hold the advantage - but you can't run away from the economy altogether."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9554,
+        "fields": {
+            "answer": 9247,
+            "candidate": 23,
+            "answer_feedback": "A running attack on Edmund Muskie's liberalism isn't exactly the best suited for this environment - but it'll keep the right flank of the party happy, at least."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9555,
+        "fields": {
+            "answer": 9248,
+            "candidate": 23,
+            "answer_feedback": "Kirk gets some good attacks in on Muskie, before controversy forces you to yank on his leash - still, he can't unsay what he said, and Republican partisans will keep up what Kirk cannot."
+        }
     }
 ]
 
@@ -12652,6 +12718,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
+
+
 
 
 
