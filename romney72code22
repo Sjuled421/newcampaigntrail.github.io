@@ -28523,8 +28523,11 @@ function switcheroo3() {
         document.body.background = "https://cdn.discordapp.com/attachments/432358054369951746/1135696012829274112/image.png"
         document.getElementById("header").src = "https://cdn.discordapp.com/attachments/432358054369951746/1135695316113428581/image.png" 
          document.getElementById("wittyquote").color = "black"
+         campaignTrail_temp.running_mate_last_name = '';
+         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/rCb7Nmv.png';
+         campaignTrail_temp.candidate_last_name = 'Muskie';
     }
-    if((ans == 9666 || ans == 9667 || ans == 9668  ) && vietnamLevel >= 2){
+    if((ans == 9666 || ans == 9667 || ans == 9668  )){
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#8e9394" 
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#875252" 
         $(".container")[0].style.backgroundColor = "#8c8282" 
@@ -28533,6 +28536,9 @@ function switcheroo3() {
         document.body.background = "https://cdn.discordapp.com/attachments/432358054369951746/1135349019900653719/image.png"
         document.getElementById("header").src = "https://cdn.discordapp.com/attachments/432358054369951746/1135347316484743198/image.png" 
         document.getElementById("wittyquote").color = "black"
+        campaignTrail_temp.running_mate_last_name = 'Kirk';
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/RDqqXdD.png';
+        campaignTrail_temp.candidate_last_name = 'Romney';
     }
     if((ans == 9245 || ans == 9246 || ans == 9247 || ans == 9248 ) && vietnamLevel >= 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9257);
@@ -28591,14 +28597,14 @@ function switcheroo3() {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(10506);
         switcheroo3();
     }
-    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9274 || ans == 9278 || ans == 9540 || ans == 9507 || ans == 9507 || ans == 9507 ) && singlaubLevel == 2 && veepLevel < 2){
+    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9464 || ans == 11261 || ans == 11262 || ans == 11263 ) && singlaubLevel == 2 && veepLevel < 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9107);
     }
-    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9274 || ans == 9278 || ans == 9540 || ans == 9507 || ans == 9507 || ans == 9507 ) && singlaubLevel < 2 && veepLevel < 2){
+    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9464 || ans == 11261 || ans == 11262 || ans == 11263 ) && singlaubLevel < 2 && veepLevel < 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(10850);
     }
-    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9274 || ans == 9278 || ans == 9540 || ans == 9507 || ans == 9507 || ans == 9507 ) && veepLevel == 2){
-        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(10506);
+    if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9464 || ans == 11261 || ans == 11262 || ans == 11263 ) && veepLevel == 2){
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(10820);
     }
 
 }
