@@ -400,7 +400,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9564,
         "fields": {
             "priority": 0,
-            "description": "[October 1972]Grave news from Florida - Claude Kirk has just been issued an indictment in a corruption investigation from his time as Governor. This is just... bad, George.",
+            "description": "[October 1972] Grave news from Florida - Claude Kirk has just been issued an indictment in a corruption investigation from his time as Governor. This is just... bad, George.",
             "likelihood": 1
         }
     },
@@ -8174,7 +8174,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9348,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.045
         }
     },
     {
@@ -8704,7 +8704,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9605,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.024
         }
     },
     {
@@ -8714,7 +8714,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9606,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.024
         }
     },
     {
@@ -8734,7 +8734,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9608,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.024
         }
     },
     {
@@ -8794,7 +8794,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 10821,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.005
         }
     },
     {
@@ -8844,7 +8844,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 10823,
             "candidate": 23,
             "affected_candidate": 24,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.045
         }
     },
     {
@@ -28291,6 +28291,8 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
+
+
 
 
 
