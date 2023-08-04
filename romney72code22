@@ -271,6 +271,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 11275,
+        "fields": {
+            "priority": 0,
+            "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters with the latest leaks from inside your Administration. He shakes his head, having no leads.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 9562,
         "fields": {
             "priority": 0,
@@ -464,15 +473,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters the Oval Office. After a secret investigation of your staff, he's come to the conclusion that the source of the leaks isn't a staffer or a disgruntled, mid-ranking appointee. It's a cabinet member. The call is coming from inside the White House, George. How do you respond.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 11275,
-        "fields": {
-            "priority": 0,
-            "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters with the latest leaks from inside your Administration. He shakes his head, having no leads.",
             "likelihood": 1
         }
     }
