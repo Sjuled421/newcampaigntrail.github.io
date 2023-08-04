@@ -175,7 +175,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9566,
         "fields": {
             "priority": 0,
-            "description": "[June 1972] It is official - you have emerged as the Democratic President nominee, the culmination of years of work. Now, as you accept the nomination, your minds turns to other matters. The vice-presidency. Who shall march with you to the White House?",
+            "description": "[June 1972] Let's take a step back from Romney and the White House for a moment. You are now Ed Muskie and you have just emerged as the Democratic President nominee, the culmination of years of work. Now, as you accept the nomination, your minds turns to other matters. The vice-presidency. Who shall march with you to the White House?",
             "likelihood": 1
         }
     },
