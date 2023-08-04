@@ -28719,13 +28719,13 @@ function switcheroo3() {
     if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel <= -1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9106);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel > 1){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel > 0){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9108);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && -1 < economyLevel <= 1){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && -2 < economyLevel <= 0){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11250);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel <= -1){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel <= -2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9109);
     }
     if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 1){
