@@ -343,15 +343,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 9466,
-        "fields": {
-            "priority": 0,
-            "description": "eeee",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 270,
         "fields": {
             "priority": 2,
@@ -455,6 +446,33 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "[September 1972] While the economy isn't in recession, it isn't exactly growing, either. You've halted further economic decline - that much is clear. What will you make of this victory, however small it may be?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 11273,
+        "fields": {
+            "priority": 0,
+            "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters the Oval Office. After \"turning the screws\" on your staff, he says that he uncovered the source of the leaks that plagued your Administration: Richard Milhous Nixon. For years, he and his allies have been feeding the press and undermining your Administration.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 11274,
+        "fields": {
+            "priority": 0,
+            "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters the Oval Office. After a secret investigation of your staff, he's come to the conclusion that the source of the leaks isn't a staffer or a disgruntled, mid-ranking appointee. It's a cabinet member. The call is coming from inside the White House, George. How do you respond.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 11275,
+        "fields": {
+            "priority": 0,
+            "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters with the latest leaks from inside your Administration. He shakes his head, having no leads.",
             "likelihood": 1
         }
     }
@@ -1255,34 +1273,10 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 9505,
-        "fields": {
-            "question": 9110,
-            "description": "Put out a statement - we wish Nixon our best, in his private endeavors. He was a wonderful Secretary of State, and I’m proud to nominate his successor, Attorney General Edward Brooke, a man with copious foreign policy experience from serving his time as Senator."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 9506,
-        "fields": {
-            "question": 9110,
-            "description": "Put out a statement - we wish Nixon our best, in his private endeavors. He was a wonderful Secretary of State, and I’m proud to nominate his successor, Attorney General Edward Brooke, a man with copious foreign policy experience from serving his time as Senator."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 9507,
-        "fields": {
-            "question": 9110,
-            "description": "Put out a statement - we wish Nixon our best, in his private endeavors. He was a wonderful Secretary of State, and I’m proud to nominate his successor, Attorney General Edward Brooke, a man with copious foreign policy experience from serving his time as Senator."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 9516,
         "fields": {
             "question": 9111,
-            "description": "The pacific coast has long been a Republican stronghold - we've won it in every competitive election - let's spend our time there. We need California, anyways."
+            "description": "The Pacific Coast has long been a Republican stronghold - we've won it in every competitive election - let's spend our time there. We need California, anyways."
         }
     },
     {
@@ -1290,7 +1284,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9517,
         "fields": {
             "question": 9111,
-            "description": "The midwest has long been my strongest base of support - the economic turbulence over the last year may disrupt that some, but fundamentally, it's still true. Let's spend it there."
+            "description": "The Midwest has long been my strongest base of support - the economic turbulence over the last year may disrupt that some, but fundamentally, it's still true. Let's spend it there."
         }
     },
     {
@@ -1298,7 +1292,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9518,
         "fields": {
             "question": 9111,
-            "description": "A two-party system has finally emerged in the south - I will spend the halcyon days of my campaign putting every bit of my body into ensuring the Republican Party can maintain, maybe grow, its presence there."
+            "description": "A two-party system has finally emerged in the South - I will spend the halcyon days of my campaign putting every bit of my body into ensuring the Republican Party can maintain, maybe grow, its presence there."
         }
     },
     {
@@ -1699,6 +1693,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 11249,
             "description": "Well, you know - Saigon? They don't have much left in them, let's be honest. Let's be frank. We need them to hold on till Election Day, at least. Try and get that to happen."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11276,
+        "fields": {
+            "question": 11273,
+            "description": "This is - I don't have words. I want -  gosh. I want to go on television and condemn Nixon from the highest levels. He'll pay for this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11277,
+        "fields": {
+            "question": 11273,
+            "description": "Oh my God. My own friend. My Secretary of State... this is awful. This is humiliating. We can never talk about this to anyone."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11278,
+        "fields": {
+            "question": 11273,
+            "description": "Well, I - goodness. Well, we can't get into a public fight with Nixon, but we can make sure he can't hurt us again. Put together a list of every one of Nixon's allies in government and, uh, in the party. Remove anyone we can and isolate those we can't. Plug the holes, you know."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11282,
+        "fields": {
+            "question": 11274,
+            "description": "Oh God. We can't trust any of them, can we? Until this election's over, I'm avoiding all of them. Let DeVries serve as intermediary."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11283,
+        "fields": {
+            "question": 11274,
+            "description": "Well, I can't just let this breach of confidence go by unaddressed. I'll - I'll talk to all of them. I'll let them know I know a leaker is among them and I won't be cow - scared."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 11286,
+        "fields": {
+            "question": 11275,
+            "description": "I see, Walter. Well... that'll be all, I suppose."
         }
     }
 ]
@@ -7609,26 +7651,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 9113,
-        "fields": {
-            "answer": 3231,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 9114,
-        "fields": {
-            "answer": 3292,
-            "candidate": 23,
-            "affected_candidate": 23,
-            "global_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 9115,
         "fields": {
             "answer": 3293,
@@ -7644,7 +7666,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3294,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.009
         }
     },
     {
@@ -7904,7 +7926,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9192,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": 0.06
+            "global_multiplier": 0.08
         }
     },
     {
@@ -8024,7 +8046,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9259,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.08
         }
     },
     {
@@ -8034,7 +8056,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9260,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.075
         }
     },
     {
@@ -8044,7 +8066,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9261,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.068
         }
     },
     {
@@ -8214,7 +8236,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9356,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.012
+            "global_multiplier": -0.03
         }
     },
     {
@@ -8224,7 +8246,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9357,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.02
         }
     },
     {
@@ -8234,7 +8256,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9358,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.02
         }
     },
     {
@@ -8444,7 +8466,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9540,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.035
         }
     },
     {
@@ -8955,6 +8977,56 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 23,
             "affected_candidate": 23,
             "global_multiplier": 0.023
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 11288,
+        "fields": {
+            "answer": 11282,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 11289,
+        "fields": {
+            "answer": 11283,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.017
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 11292,
+        "fields": {
+            "answer": 11276,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 11293,
+        "fields": {
+            "answer": 11278,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 11294,
+        "fields": {
+            "answer": 11277,
+            "candidate": 23,
+            "affected_candidate": 23,
+            "global_multiplier": -0.006
         }
     }
 ]
@@ -10748,6 +10820,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 11,
             "issue_score": 0.5,
             "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 11290,
+        "fields": {
+            "answer": 11283,
+            "issue": 15,
+            "issue_score": 0.4,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 11291,
+        "fields": {
+            "answer": 11282,
+            "issue": 15,
+            "issue_score": 0.7,
+            "issue_importance": 6
         }
     }
 ]
@@ -28277,6 +28369,60 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 25,
             "answer_feedback": "BROOKE: It's unlikely, George, that we'll be able to badger the South Koreans - definitely not the Australians - without making a commitment of our own as well. Which, I highly advise against. We need to prepare for the possibility the South may fall."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11279,
+        "fields": {
+            "answer": 11276,
+            "candidate": 23,
+            "answer_feedback": "You are stopped by a onslaught of aides and a last-minute appeal from Brooke - it would be suicide, it would look baffling for you to go after Nixon like that. But isn't that what he deserves?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11280,
+        "fields": {
+            "answer": 11277,
+            "candidate": 23,
+            "answer_feedback": "DEVRIES: I'm sorry, sir. I wish we would've known sooner - I do, sir. I'll get Leonard on line one, so we can talk strategy to square this thing away."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11281,
+        "fields": {
+            "answer": 11278,
+            "candidate": 23,
+            "answer_feedback": "Your 'Enemy List' is soon assembled, casting suspicions on nearly everyone in your cabinet and in the party at large. Even Leonard Hall is suspect - they find themselves steadily isolated and ostracized. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11284,
+        "fields": {
+            "answer": 11282,
+            "candidate": 23,
+            "answer_feedback": "You soon find an Iran Curtain erected outside the Oval, with not even Brooke being allowed to see you in person on most matters - the whole fiasco soon is leaked."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11285,
+        "fields": {
+            "answer": 11283,
+            "candidate": 23,
+            "answer_feedback": "Your one-on-one 'security meetings' with the members of the Cabinet is soon leaked."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11287,
+        "fields": {
+            "answer": 11286,
+            "candidate": 23,
+            "answer_feedback": "DEVRIES: Yessir."
+        }
     }
 ]
 
@@ -28293,7 +28439,13 @@ campaignTrail_temp.jet_data = [{
 ]
 
 
-campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 32, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
+
+
+
+
+
+
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 33, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
 
 
 
@@ -28319,6 +28471,7 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
   var priceLevel = 0;
   var veepLevel = 0;
   var singlaubLevel = 0;
+  var nixonLevel = 0;
 
 function tunnel(new_q){
     e = campaignTrail_temp;
@@ -28356,8 +28509,23 @@ function switcheroo3() {
     if(ans == 9140  ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9182);                  
     }
+    if((ans == 9504) && nixonLevel == 2 ){
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11273);                  
+    }
+    if((ans == 9504) && nixonLevel == 1 ){
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11274);                  
+    }
+    if((ans == 9504) && nixonLevel == 0 ){
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11275);                  
+    }
     if(ans == 3231  ){
         singlaubLevel += 1;                  
+    }
+    if(ans == 3292  ){
+        nixonLevel += 2;                  
+    }
+    if(ans == 3293  ){
+        nixonLevel += 1;                  
     }
     if(ans == 9294  ){
         singlaubLevel += 1;                  
@@ -28551,22 +28719,22 @@ function switcheroo3() {
     if((ans == 9392 || ans == 9393 || ans == 9394 ) && vietnamLevel <= -1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9106);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel > 2){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel > 1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9108);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && 0 < economyLevel < 2){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && -1 < economyLevel <= 1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11250);
     }
-    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel <= 0){
+    if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel <= -1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9109);
     }
-    if((ans == 9504 || ans == 9505 || ans == 9506 || ans == 9507  ) && veepLevel == 1){
+    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9562);
     }
-    if((ans == 9504 || ans == 9505 || ans == 9506 || ans == 9507  ) && veepLevel == 2){
+    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9563);
     }
-    if((ans == 9504 || ans == 9505 || ans == 9506 || ans == 9507  ) && veepLevel == 0){
+    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 0){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9564);
     }
     if((ans == 9362 || ans == 9363 || ans == 9364 || ans == 9365 || ans == 9359 || ans == 9360 || ans == 9361 || ans == 9356 || ans == 9357 || ans == 9358 ) && singlaubLevel == 2){
