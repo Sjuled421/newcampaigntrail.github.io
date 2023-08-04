@@ -28609,7 +28609,7 @@ function switcheroo3() {
         economyLevel -= 3;
     }
     if(ans == 9261 ){
-        economyLevel += 3;
+        economyLevel += 4;
     }
     if(ans == 9362 ){
         economyLevel -= 2;
