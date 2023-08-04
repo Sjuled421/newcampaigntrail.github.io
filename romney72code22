@@ -28293,33 +28293,6 @@ campaignTrail_temp.jet_data = [{
 ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 32, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
 
 
@@ -28401,6 +28374,15 @@ function switcheroo3() {
     if(ans == 3227  ){
         vietnamLevel++;
     }
+    if(ans == 9146 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9147 ){
+        economyLevel += 2;
+    }
+    if(ans == 9148 ){
+        economyLevel += 2;
+    }
     if(ans == 3228  ){
         vietnamLevel += 3;
     }
@@ -28414,7 +28396,7 @@ function switcheroo3() {
         vietnamLevel -= 2;
     }
     if(ans == 9540  ){
-        vietnamLevel += 1;
+        vietnamLevel += 2;
     }
     if(ans == 9534  ){
         vietnamLevel += 1;
@@ -28422,35 +28404,83 @@ function switcheroo3() {
     if(ans == 9535  ){
         vietnamLevel -= 2;
     }
-    if(ans == 9535  ){
-        economyLevel += 2;
+    if(ans == 3238  ){
+        economyLevel -= 2;
     }
-    if(ans == 9534  ){
+    if(ans == 3230  ){
+        economyLevel += 3;
+    }
+    if(ans == 9567 ){
         economyLevel -= 1;
     }
-    if(ans == 9540  ){
-        economyLevel -= 1;
+    if(ans == 9078 ){
+        economyLevel += 1;
+    }
+    if(ans == 9081 ){
+        economyLevel += 1;
+    }
+    if(ans == 1673 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9098 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9100 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9140 ){
+        economyLevel += 1;
+    }
+    if(ans == 9139 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9192 ){
+        economyLevel += 1;
     }
     if(ans == 9259 ){
         economyLevel -= 3;
+    }
+    if(ans == 9261 ){
+        economyLevel += 3;
+    }
+    if(ans == 9362 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9363 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9365){
+        economyLevel += 1;
+    }
+    if(ans == 9460 ){
+        economyLevel += 2;
+    }
+    if(ans == 9230 ){
+        economyLevel += 1;
+    }
+    if(ans == 9535 ){
+        economyLevel += 1;
+    }
+    if(ans == 9534 ){
+        economyLevel -= 1;
+    }
+    if(ans == 9540 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9537 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9538 ){
+        economyLevel -= 2;
+    }
+    if(ans == 9360 ){
+        economyLevel -= 1;
     }
     if(ans == 9259  ){
         vietnamLevel += 4;
     }
     if(ans == 9260  ){
         vietnamLevel += 1;
-    }
-    if(ans == 9261 ){
-        economyLevel += 3;
-    }
-    if(ans == 9147 ){
-        economyLevel += 2;
-    }
-    if(ans == 9146 ){
-        economyLevel -= 2;
-    }
-    if(ans == 9148 ){
-        economyLevel += 1;
     }
     if(ans == 9261  ){
         vietnamLevel -= 10;
@@ -28461,54 +28491,6 @@ function switcheroo3() {
     }
     if(ans == 9289  ){
         priceLevel++;
-    }
-    if(ans == 3228  ){
-        economyLevel -= 2;
-    }
-    if(ans == 3567  ){
-        economyLevel -= 1;
-    }
-    if(ans == 3569  ){
-        economyLevel += 1;
-    }
-    if(ans == 9570  ){
-        economyLevel -= 1;
-    }
-    if(ans == 3230  ){
-        economyLevel += 2;
-    }
-    if(ans == 9078  ){
-        economyLevel++;
-    }
-    if(ans == 9081  ){
-        economyLevel += 2;
-    }
-    if(ans == 9139  ){
-        economyLevel++;
-    }
-    if(ans == 9140  ){
-        economyLevel -= 2;
-    }
-    if(ans == 9259  ){
-        economyLevel -= 2;
-    }
-    if(ans == 9362  ){
-        economyLevel -= 2;
-    }
-    if(ans == 9363  ){
-        economyLevel -= 3;
-    }
-    if(ans == 9364  ){
-        economyLevel -= 1;
-    }
-    if(ans == 9356  ){
-        economyLevel -= 1;
-    }
-    if(ans == 9358  ){
-        economyLevel -= 2;
-    }
-    if(ans == 9460  ){
-        economyLevel += 3;
     }
     if(ans == 9293  ){
         veepLevel += 2;
