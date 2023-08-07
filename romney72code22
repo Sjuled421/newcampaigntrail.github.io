@@ -262,6 +262,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 9562,
+        "fields": {
+            "priority": 0,
+            "description": "[October 1972] While picking Tower certainly reassures conservatives, it has done the opposite for those more liberally inclined, especially considering his civil rights record. What will you do to assuage these scruples? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 9110,
         "fields": {
             "priority": 0,
@@ -275,15 +284,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "[October 1972] You are still seething about the 60 Minutes interview when your Chief of Staff DeVries enters with the latest leaks from inside your Administration. He shakes his head, having no leads.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 9562,
-        "fields": {
-            "priority": 0,
-            "description": "[October 1972] While picking Tower certainly reassures conservatives, it has done the opposite for those more liberally inclined, especially considering his civil rights record. What will you do to assuage these scruples? ",
             "likelihood": 1
         }
     },
@@ -1700,7 +1700,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11276,
         "fields": {
             "question": 11273,
-            "description": "This is - I don't have words. I want -  gosh. I want to go on television and condemn Nixon from the highest levels. He'll pay for this."
+            "description": "This is - I don't have words. I want - gosh. I want to go on television and condemn Nixon from the highest levels. He'll pay for this."
         }
     },
     {
@@ -7766,7 +7766,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1673,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.36
+            "global_multiplier": -0.38
         }
     },
     {
@@ -7776,7 +7776,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9098,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.36
+            "global_multiplier": -0.38
         }
     },
     {
@@ -7786,7 +7786,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 9100,
             "candidate": 23,
             "affected_candidate": 23,
-            "global_multiplier": -0.36
+            "global_multiplier": -0.38
         }
     },
     {
@@ -28445,6 +28445,8 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
+
 campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.0, \"start_point\": 1.00, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.001, \"state_variance\": 0.001, \"question_count\": 33, \"default_map_color_hex\": \"#fffcf5\", \"no_state_map_color_hex\": \"#999999\"}}]");
 
 
@@ -28476,6 +28478,22 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
 function tunnel(new_q){
     e = campaignTrail_temp;
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
+}
+const runningTargetNode = document.getElementById("game_window");
+const runningConfig = { attributes: true, childList: true, subtree: true };
+
+function onGameWindowChanged(mutationList, observer) {
+    setRunningMateVisible();
+}
+
+const runningObserver = new MutationObserver(onGameWindowChanged);
+runningObserver.observe(runningTargetNode , runningConfig );
+let showRunningMate = true;
+
+function setRunningMateVisible() {
+    const runningMateImage = document.getElementById("running_mate_pic");
+    if(runningMateImage)
+        runningMateImage.style.display = showRunningMate ? "block" : "none";
 }  
 function switcheroo1() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(25)
@@ -28508,6 +28526,12 @@ function switcheroo3() {
   
     if(ans == 9140  ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9182);                  
+    }
+    if(ans == 9256 || ans == 9285 || ans == 9289){
+        showRunningMate = false;               
+    }
+    if(ans == 9666 || ans == 9667|| ans == 9668){
+        showRunningMate = true;               
     }
     if((ans == 9504) && nixonLevel == 2 ){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(11273);                  
@@ -28728,13 +28752,13 @@ function switcheroo3() {
     if((ans == 9467 || ans == 10821 || ans == 10822 || ans == 10823|| ans == 10851 || ans == 10852 || ans == 10853  ) && economyLevel <= -2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9109);
     }
-    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 1){
+    if((ans == 9474 || ans == 9475 || ans == 9476 || ans == 9501 || ans == 11252 || ans == 11251 ) && veepLevel == 1){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9562);
     }
-    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 2){
+    if((ans == 9474 || ans == 9475 || ans == 9476 || ans == 9501 || ans == 11252 || ans == 11251 ) && veepLevel == 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9563);
     }
-    if((ans == 11276 || ans == 11277 || ans == 11278 || ans == 11282 || ans == 11283 || ans == 11286 ) && veepLevel == 0){
+    if((ans == 9474 || ans == 9475 || ans == 9476 || ans == 9501 || ans == 11252 || ans == 11251 ) && veepLevel == 0){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(9564);
     }
     if((ans == 9362 || ans == 9363 || ans == 9364 || ans == 9365 || ans == 9359 || ans == 9360 || ans == 9361 || ans == 9356 || ans == 9357 || ans == 9358 ) && singlaubLevel == 2){
@@ -28758,5 +28782,176 @@ function switcheroo3() {
     if((ans == 9403 || ans == 9459 || ans == 9460 || ans == 9464 || ans == 11261 || ans == 11262 || ans == 11263 ) && veepLevel == 2){
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(10820);
     }
+
+}
+
+function onGameWindowChangeCandidates() {
+    const resultsTableHolder = document.getElementById("overall_details_container");
+
+    if(!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
+        return;
+    }
+
+    resultsTableHolder.classList.add("done");
+
+    const resultsTable = resultsTableHolder.childNodes[3].childNodes[3].children[0];
+    
+    for(let i = 0; i < resultsTable.children.length; i++) {
+        const row = resultsTable.children[i];
+        let name = row.firstChild.innerText;
+        row.insertCell(1);
+        if(name) {
+            name = name.replaceAll("-", "").trim();
+            console.log("name is:" + name)
+        }
+
+
+    }
+
+    
+    const resultsTableHistorical = resultsTableHolder.childNodes[5].childNodes[3].children[0];
+    
+    for(let i = 0; i < resultsTableHistorical.children.length; i++) {
+        const row = resultsTableHistorical.children[i];
+        let name = row.childNodes[1].innerText;
+        row.insertCell(1);
+        if(name) {
+            name = name.replaceAll("-", "").trim();
+        }
+
+        if(i == 0) {
+            row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
+        }
+        else {
+            row.children[1].innerHTML = vpTableHistorical[name];
+        }
+    }
+}
+
+const gameWindowNode = document.getElementById("game_window");
+const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
+
+const candidateObserver = new MutationObserver(onGameWindowChangeCandidates);
+candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
+
+
+// constructs endings based on header and pages
+
+construct = (a = 1) => {
+e.page = e.page + a < e.pages.length ? e.page + a : 0
+let html = e.header;
+html += e.pages[e.page] + "<br>";
+if (e.page > 0) {
+html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+}
+if (e.page < e.pages.length - 1) {
+html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+}
+
+if (e.image == true)
+setTimeout(()=>{
+  candImg = $(".person_image")[0]
+  if (candImg) {
+    candImg.remove()
+    $("#final_results_description")[0].style = `
+      text-align:left;
+      width: 70%;
+      text-overflow: ellipsis;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    `
+  }
+}, 10)
+else if (e.image)
+setTimeout(()=>{
+  candImg = $(".person_image")[0];
+  if (candImg)
+    candImg.src = e.image;
+}, 10)
+
+return html;
+}
+
+endingConstructor = (a = 1) => {
+$("#final_results_description")[0].innerHTML = construct(a);
+}
+
+// ENDINGS -- this is slightly more reliable than the ending code method
+
+e.multiple_endings = true;
+
+endingPicker = (out, totv, aa, quickstats) => {
+//out = "win", "loss", or "tie" for your candidate
+//totv = total votes in entire election
+//aa = all final overall results data
+//quickstat = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+
+/*
+e.header = "<h2></h2>"
+e.pages = ["<p></p>",
+         "<p></p>"]
+*/
+
+
+if (out == "tie"){
+    e.header = "<h2>DEADLOCK</h2>"
+    e.pages = ["<p>DEADLOCK.</p>"]
+    e.image = "https://i.imgur.com/GbhLYVS.png";
+    return construct(0);	
+}
+else if (economyLevel <= 0 && out == "loss" && vietnamLevel <= 1 ) { 
+    e.header = "<h2>WHITE HOUSE TRANSCRIPT DATED DECEMBER 2ND, 1982</h2>"
+    e.pages = ["<p>NIXON: [unclear]</p><p>HALDEMAN: Well - [chuckles]</p><p>NIXON: The Romney legacy - I mean - just look at the paper - it’s -</p><p>HALDEMAN: His legacy was defeat, complete and utter defeat. This reporter - Harris - I think he wrote a book…</p><p>NIXON: My God, doesn’t that explain a lot. It was the one singing “Saint George’s” every praise, wasn’t it?</p><p>HALDEMAN: Yeah, the same one who nearly became Press Secretary, an-</p><p>NIXON: That’s right.</p><p>HALDEMAN: [unclear]</p><p>NIXON: Unbelievable. The Romney legacy - I just can’t get over that. He lost to Muskie, he lost Vietnam, he lost everything - what does this ass - Harris? </p><p>HALDEMAN: Yeah - </p><p>NIXON: I bet he’s insufferable, too. Goddamn.</p>","<p>HALDEMAN: Well, we made sure he wasn’t in the press pool to be safe.</p><p>NIXON: Good. I don’t want any of George’s asses anywhere near me -  that DeVries fellow, he’s no good. Even Len Hall - you know, he was -</p><p>HALDEMAN: Your campaign director -</p><p>NIXON: Yeah. He always was a bastard, but he was my bastard - then he up and joined with Romney -</p><p>HALDEMAN: No loyalty.</p><p>NIXON: That’s right, no loyalty.</p><p>HALDEMAN: [unclear]</p><p>NIXON: Thank God I got out of there when I did - My God, was everything falling apart - </p><p>HALDEMAN: Yeah.</p><p>NIXON: - and, to be frank, I’m glad I did what, you know, I did. </p><p>HALDEMAN: Someone else was going to do it anyway. Better -","</p><p>NIXON: Use it to my advantage -</p><p>HALDEMAN: Yeah.</p><p>NIXON: - and profit from it.</p><p>HALDEMAN: You know, Muskie was out there - </p><p>NIXON: Last night, I know - criticizing me for not continuing his work with the Russians on arms control and - </p>","<p>HALDEMAN: He seemed uncoordinated, stumbling through it.</p><p>NIXON: Yeah - you know - dementia can strike at any age - it’s sad, really, but Muskie has never been all that bright. I mean, my God, what he did with -</p><p>HALDEMAN: With Russia, with -</p><p>NIXON: The economy, too, it’s unbelievable. Terrible, just -</p><p>HALDEMAN: Yeah.</p><p>NIXON: Well, we’re here now, so there’s that.</p><p>HALDEMAN: Actually, on the dementia… topic, Reagan announced his [unclear].</p>"]
+    e.image = "https://media.vanityfair.com/photos/620c080ff518ba2b0f8f82e8/3:2/w_1343,h_895,c_limit/vf-222-watergate-exerpt-site-story.jpg";
+return construct(0);
+}
+else if (economyLevel > 0 && out == "win" && vietnamLevel > 1 ) { 
+    e.header = "<h2>Happy Days</h2>"
+    e.pages = ["<p>Though your second term presented challenges, they were trivial compared to what you had faced throughout your bid for re-election.  After all, you already had your legacy: you had ended Vietnam, and you had saved the global economy.  Your second-term efforts to restore the economy moved slowly and your moves towards lasting desegregation would prove more controversial in the face of white backlash, but you had no more campaigns to run, so what’s the point of holding back?</p><p>You’re an old man as 1997 arrives, 89 years old.  January in Washington is brisk, but you’d never miss this.  As you all arrive, you idly chat with Charles Percy, Dale Bumpers, and Ed Koch, reminiscing with them in a way that only people who share such a unique experience can.  They all congratulate you and Lenore as well.  After all, it’s the first time this has happened since the Adamses.  The crowd quiets as Mitt - the president-elect, you remind yourself - walks to the podium.  And as your son lifts his hand from that Bible and takes your old office, you feel yourself smile just a little bit wider.</p>"]
+    e.image = "https://cdn.discordapp.com/attachments/1121576440287215677/1138131809356484628/IMG_2807.jpg";
+    return construct(0);
+}
+else if (economyLevel > 0 && out == "loss" && vietnamLevel > 1 ) { 
+    e.header = "<h2>Off-the-Record Taped Interview, Dated August 3rd, 1993</h2>"
+    e.pages = ["<p>BROOKE: It’s a pleasure to meet with you, Peter.</p><p>JENNINGS: The pleasure is all mine, Mr. Attorney General. Really, I - well, just thank you so much for the opportunity to meet with you. I’ve long been a fan of your… well, everything.</p><p>BROOKE: I just wish  more people were - you know, with…</p><p>JENNINGS: I hate to interrupt, but I just have to ask - can you believe what the President is doing? It’s ridiculous, you know.</p><p>BROOKE: Lord, don’t get me started on…</p><p>JENNINGS: I think it’s unreal - he’s bringing us down into the worst economic, well, era since the Muskie Malaise - not to mention his saber rattling with the Warsaw Pact over their expansion into Vietnam -</p><p>BROOKE: I - I just can’t believe it. You know, under Romney, I was glad to be involved in those decisions. I - I even got a phone call, or two, from Muskie. Never got one from Rhodes, of course, I got several from Kennedy, good man, good President - </p><p>JENNINGS: Kennedy was… yea, he was good. Very good record on - </p><p>BROOKE: On the issues, mmhmm. Though, still a bit too liberal for my taste - but you need balance. He brought balance, after Rhodes.</p>","<p>JENNINGS: Yeah. His main, well, sticking point for me was his work with the international community to prosecute war criminals from the… South African conflict.</p><p>BROOKE:  What a mess. Worse than Vietnam. We might’ve lost, a few years after our initial success with handing over the actual fight to the South, but with South Africa?</p><p>JENNINGS: Tsk. I know.</p><p>BROOKE: And you have the President wanting to lessen our involvement, to move away from the region - when these same Apartheid dictators, and, and, warlords! These warlords would just… bounce back.</p><p>JENNINGS: It’s a tricky situation.</p><p>BROOKE: He offered me a Justice seat, Kennedy did, you know. I, well, I turned him down. What else was I supposed to do? I’m old, and I’m not getting any younger. Besides, he offered it to someone perfect - Rodham was a great choice. </p><p>JENNINGS: I still can’t believe the President knew her - dated her, too. </p>","<p>BROOKE: Well, you know, these types of very intelligent people - similar groups, similar viewpoints - at least they had similar viewpoints, at some point in time. Lord knows how much he shifted.</p><p>[UNKNOWN]: [shouting] Alright guys - we’re not gonna be on air for at least another hour or so, may not even -</p><p>JENNINGS: Well, that’s unfortunate -</p><p>[UNKNOWN]: [shouting] - go on the air at all! President Clinton is delivering a national address, so - just hang tight. </p><p>BROOKE: He makes me ashamed to share the same party with him, sometimes, you know.</p>"]
+    e.image = "https://www.heraldtimesonline.com/gcdn/media/2021/08/10/Bloomington/e2000dfd4e2b10e44c203c2e6cc8ba54.jpg?width=1200&disable=upscale&format=pjpg&auto=webp";
+    return construct(0);
+}
+else if (economyLevel <= 0 && out == "win" && vietnamLevel <= 1 ) { 
+    e.header = "<h2>Stand Up For America!</h2>"
+    e.pages = ["<p>The recovery was more challenging than expected.  Even as the initial shock reversed itself and the international markets stabilized, so-called “stagflation” confounded your in-house economists.  Your attempts to beat back the tide of inflation at Cornuelle’s direction only exacerbated the death spiral of entire manufacturing communities and drove the nation to a deep recession.  To the people left behind, you were an uncaring businessman more devoted to Nissan and Volkswagen than GM.  They clamored for someone who’d fight for them first.</p><p>Now, it’s November 2nd, 1976.  It’s nearly one in the morning.  Hall paces around you, distraught.  You can’t form words either.  This can’t be happening.  This shouldn’t be happening.  The election had certainly been a dramatic affair, but ending like this?  Impossible, you thought.  Cronkite looks flabbergasted too, but he says it nonetheless and makes the death of all your accomplishments real.  “George Corley Wallace, the man who once stood in the schoolhouse doors, has just won the state of Michigan, and therefore the presidency.”</p>"]
+    e.image = "https://images.fineartamerica.com/images-medium-large-5/george-wallace-in-miami-beach-1976-timothy-mcafee.jpg";
+    return construct(0);
+}
+else if (economyLevel > 0 && out == "win" && vietnamLevel <= 1) { 
+    e.header = "<h2>Too Right, Just in Time?</h2>"
+    e.pages = ["<p>Your second term was one of increasing tension at home.  The economy was salvaged, and that was cause enough to celebrate, but it also naturally guided focus to other issues.  The fall of Saigon was a major flashpoint for right-wing fury, as were the growing problems in Cambodia and Angola that conservatives charged you and Ed Brooke with all but ignoring in favor of cooling tensions with Moscow.  With no campaigns left to run, you felt it time to push for full-speed desegregation, which in turn inflamed white backlash further.  A series of bombings in Boston that left Mayor Louise Day Hicks dead and the city in flames was only quelled by federal intervention, massively damaging the entire integration system.  The times were a-changing.</p>  <p>Nobody knew this better than Hubert Humphrey.  Returned to the Senate but hardened by his loss eight years prior, he had a new idea: “triangulation.”  When playing to the very law and order that had lost him 1968, he could use his sterling civil rights record to blunt any charges of racism in opposing your integration program, especially as your chosen successor Charles Percy fought bitterly with the southern wing of the party.  Humphrey wouldn’t make the same mistake twice.  Evidently it worked, as come November it was him sitting across from you receiving his first briefings as president-elect.</p>"]
+    e.image = "https://media.vanityfair.com/photos/54ca903b674871890b55eecc/1:1/w_640,h_618,c_limit/image.jpg";
+    return construct(0);
+}
+else if (economyLevel > 0 && out == "loss" && vietnamLevel <= 1) { 
+    e.header = "<h2>Dynast</h2>"
+    e.pages = ["<p>The phone rings as you contemplate your heartbreakingly narrow loss.  The new RNC chair, a young moderate congressman named Donald Rumsfeld, wants to talk to you about the open senate seat in Utah.  Wallace Bennett’s retiring, and you’re by far the most popular Republican according to Utahns, and Rumsfeld makes it clear he thinks your common-sense conservatism is the way to go compared to some of the loons running out there.  You tell Don you’d mull it over and discuss it with Lenore.  You’ve always liked Utah, and it feels wrong to end a career on such a sour note.</p><p>Come 1995, you lay in state.  Your twenty-year Senate career, the first of its kind since John Quincy Adams, was perhaps more illustrious than your presidency.  Goldwater may have written The Conscience of a Conservative, but your successors - Ed Muskie, Roy Cohn, Edwin Edwards, and Donald Rumsfeld - all note that you were the conscience of the Republican Party as long as you served.  From your fight to uphold desegregation to your efforts to defend Vietnamese refugees to your continual advocacy on issues of morality, all in attendance agreed you were a brilliant senator and a fine president.</p>"]
+    e.image = "https://i.insider.com/502aca506bb3f7f52b00002a?width=750&format=jpeg&auto=webp";
+    return construct(0);
+}
+else if (economyLevel <= 0 && out == "win" && vietnamLevel > 1 ) { 
+    e.header = "<h2>Coming Home</h2>"
+    e.pages = ["<p>Though South Vietnam’s survival may have saved your presidency, it could not make the second term any easier.  Soaring unemployment and outright recession saw your approval drop to historic lows, even as you fought your hardest to reinvigorate the national economy.  Continual appeals to the better natures of volunteers and both big business and big labor saw you lambasted as little more than another Hoover, and the historic blowout your party saw in 1974 confirmed this.</p><p>Ted Kennedy surprised the nation with his refusal to run, but this opened the floodgates for Democrats to promise a second New Deal.  The new caucus system had hardly been tested by the Muskie coronation, but one of its creators knew just how powerful early wins could be.  This man, George McGovern, stormed to early victories in the small-state caucuses, promising national renewal and a bold economic agenda in the wake of such cataclysm.  You fought in vain to brandish him as the candidate of moral decay, but it was no use.  People simply cared more about how George McGovern would fix the economy than amnesty, abortion, and acid.</p>"]
+    e.image = "https://i.imgur.com/0iJC04z.jpg";
+    return construct(0);
+}
+else if (economyLevel <= 0 && out == "loss" && vietnamLevel > 1 ) { 
+    e.header = "<h2>The Muskie Malaise</h2>"
+    e.pages = ["<p>Ed Muskie’s term would hardly be stable.  Attempts to control residual “stagflation” without decimating labor wages only led to more of the status quo, and Muskie’s dour demeanor won him no favors as conservatives latched onto one word he used offhandedly in a State of the Union: malaise.  Come 1976, a horde of Republicans lined up to challenge a president who seemed, well, almost as unpopular as you were four years ago.</p><p>Nobody understood the new primary system quite yet, and a handful of eager young Republicans in exile sought to exploit that.  Lee Atwater, Karl Rove, Paul Weyrich - all of them were on the outs with the party establishment thanks to you, and all of them latched onto an obscure two-term governor of Maryland nominally aligned with the infant Romneyites but far more conservative in practice, Spiro Agnew.  Agnew’s fifty-state organization paid dividends with surprise victory after victory, and his momentum quickly gathered as legions of suburbanites saw the normalcy they craved embodied in him.</p> <p>The night of the election, Muskie phoned. After all, he now understood how you must’ve felt four years prior.</p>"]
+    e.image = "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/me_1980_muskie.jpg";
+    return construct(0);
+}
+
+else {
+e.header = "<h2><q>PLACEHOLDER</q></h2>"
+e.pages = ["<p>Fallback ending, tell Tex>"]
+}
 
 }
